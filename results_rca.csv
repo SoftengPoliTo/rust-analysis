@@ -1,0 +1,1783 @@
+Lang;Source;Metric;Value
+C++;binarytrees;SLOC;139
+C++;binarytrees;PLOC;98
+C++;binarytrees;LLOC;25
+C++;binarytrees;CLOC;15
+C++;binarytrees;BLANK;26
+C++;binarytrees;CC;19.0
+C++;binarytrees;NARGS_SUM;2
+C++;binarytrees;NARGS_AVG;0.2222
+C++;binarytrees;COGNITIVE_SUM;8
+C++;binarytrees;COGNITIVE_AVG;0.8888
+C++;binarytrees;NEXITS;5
+C++;binarytrees;NEXITS_AVG;0.555556
+C++;binarytrees;NOM__functions;9
+C++;binarytrees;NOM__closures;0
+C++;binarytrees;NOM__total;9
+C++;binarytrees;HALSTEAD__n1;28
+C++;binarytrees;HALSTEAD__n2;56
+C++;binarytrees;HALSTEAD__N1;251
+C++;binarytrees;HALSTEAD__N2;173
+C++;binarytrees;HALSTEAD__Vocabulary;84
+C++;binarytrees;HALSTEAD__Length;424
+C++;binarytrees;HALSTEAD__Volume;2710.3425872581947
+C++;binarytrees;HALSTEAD__Difficulty;43.25
+C++;binarytrees;HALSTEAD__Level;0.023121387283236993
+C++;binarytrees;HALSTEAD__Effort;117222.31689891692
+C++;binarytrees;HALSTEAD__Programming time;6512.3509388287175
+C++;binarytrees;HALSTEAD__Bugs;0.7983970910222301
+C++;binarytrees;HALSTEAD__Estimated program length;459.81781345283866
+C++;binarytrees;HALSTEAD__Purity ratio;1.0844759751246196
+C++;binarytrees;MI__Original;45.586404609681736
+C++;binarytrees;MI__Sei;16.3624350913677
+C++;binarytrees;MI__Visual Studio;26.658716146012715
+C++;fannkuchredux;SLOC;198
+C++;fannkuchredux;PLOC;124
+C++;fannkuchredux;LLOC;51
+C++;fannkuchredux;CLOC;41
+C++;fannkuchredux;BLANK;33
+C++;fannkuchredux;CC;28.0
+C++;fannkuchredux;NARGS_SUM;5
+C++;fannkuchredux;NARGS_AVG;1
+C++;fannkuchredux;COGNITIVE_SUM;46
+C++;fannkuchredux;COGNITIVE_AVG;9.2
+C++;fannkuchredux;NEXITS;2
+C++;fannkuchredux;NEXITS_AVG;0.4
+C++;fannkuchredux;NOM__functions;5
+C++;fannkuchredux;NOM__closures;0
+C++;fannkuchredux;NOM__total;5
+C++;fannkuchredux;HALSTEAD__n1;33
+C++;fannkuchredux;HALSTEAD__n2;48
+C++;fannkuchredux;HALSTEAD__N1;332
+C++;fannkuchredux;HALSTEAD__N2;235
+C++;fannkuchredux;HALSTEAD__Vocabulary;81
+C++;fannkuchredux;HALSTEAD__Length;567
+C++;fannkuchredux;HALSTEAD__Volume;3594.694951635582
+C++;fannkuchredux;HALSTEAD__Difficulty;80.78125
+C++;fannkuchredux;HALSTEAD__Level;0.012379110251450677
+C++;fannkuchredux;HALSTEAD__Effort;290383.95156181185
+C++;fannkuchredux;HALSTEAD__Programming time;16132.441753433992
+C++;fannkuchredux;HALSTEAD__Bugs;1.4617075354179188
+C++;fannkuchredux;HALSTEAD__Estimated program length;434.5432059734445
+C++;fannkuchredux;HALSTEAD__Purity ratio;0.7663901339919656
+C++;fannkuchredux;MI__Original;36.31655915490933
+C++;fannkuchredux;MI__Sei;11.94402167986491
+C++;fannkuchredux;MI__Visual Studio;21.23775389175984
+C++;fasta;SLOC;314
+C++;fasta;PLOC;251
+C++;fasta;LLOC;64
+C++;fasta;CLOC;19
+C++;fasta;BLANK;44
+C++;fasta;CC;40.0
+C++;fasta;NARGS_SUM;35
+C++;fasta;NARGS_AVG;1.75
+C++;fasta;COGNITIVE_SUM;27
+C++;fasta;COGNITIVE_AVG;1.35
+C++;fasta;NEXITS;16
+C++;fasta;NEXITS_AVG;0.8
+C++;fasta;NOM__functions;18
+C++;fasta;NOM__closures;2
+C++;fasta;NOM__total;20
+C++;fasta;HALSTEAD__n1;32
+C++;fasta;HALSTEAD__n2;130
+C++;fasta;HALSTEAD__N1;676
+C++;fasta;HALSTEAD__N2;460
+C++;fasta;HALSTEAD__Vocabulary;162
+C++;fasta;HALSTEAD__Length;1136
+C++;fasta;HALSTEAD__Volume;8338.069603276934
+C++;fasta;HALSTEAD__Difficulty;56.61538461538461
+C++;fasta;HALSTEAD__Level;0.01766304347826087
+C++;fasta;HALSTEAD__Effort;472063.017539371
+C++;fasta;HALSTEAD__Programming time;26225.72319663172
+C++;fasta;HALSTEAD__Bugs;2.0209026686719946
+C++;fasta;HALSTEAD__Estimated program length;1072.907815693699
+C++;fasta;HALSTEAD__Purity ratio;0.9444611053641716
+C++;fasta;MI__Original;21.71118119643937
+C++;fasta;MI__Sei;-21.709224960453916
+C++;fasta;MI__Visual Studio;12.696597190900217
+C++;knucleotide;SLOC;154
+C++;knucleotide;PLOC;134
+C++;knucleotide;LLOC;50
+C++;knucleotide;CLOC;6
+C++;knucleotide;BLANK;14
+C++;knucleotide;CC;29.0
+C++;knucleotide;NARGS_SUM;11
+C++;knucleotide;NARGS_AVG;0.9166666
+C++;knucleotide;COGNITIVE_SUM;17
+C++;knucleotide;COGNITIVE_AVG;1.4166666
+C++;knucleotide;NEXITS;6
+C++;knucleotide;NEXITS_AVG;0.5
+C++;knucleotide;NOM__functions;12
+C++;knucleotide;NOM__closures;0
+C++;knucleotide;NOM__total;12
+C++;knucleotide;HALSTEAD__n1;31
+C++;knucleotide;HALSTEAD__n2;74
+C++;knucleotide;HALSTEAD__N1;431
+C++;knucleotide;HALSTEAD__N2;301
+C++;knucleotide;HALSTEAD__Vocabulary;105
+C++;knucleotide;HALSTEAD__Length;732
+C++;knucleotide;HALSTEAD__Volume;4914.827718931601
+C++;knucleotide;HALSTEAD__Difficulty;63.0472972972973
+C++;knucleotide;HALSTEAD__Level;0.0158611081341764
+C++;knucleotide;HALSTEAD__Effort;309866.6043604782
+C++;knucleotide;HALSTEAD__Programming time;17214.8113533599
+C++;knucleotide;HALSTEAD__Bugs;1.526377400588348
+C++;knucleotide;HALSTEAD__Estimated program length;613.0796346785355
+C++;knucleotide;HALSTEAD__Purity ratio;0.8375404845335185
+C++;knucleotide;MI__Original;38.5313055455879
+C++;knucleotide;MI__Sei;-2.1069019620075977
+C++;knucleotide;MI__Visual Studio;22.532927219642044
+C++;mandelbrot;SLOC;177
+C++;mandelbrot;PLOC;120
+C++;mandelbrot;LLOC;50
+C++;mandelbrot;CLOC;31
+C++;mandelbrot;BLANK;26
+C++;mandelbrot;CC;33.0
+C++;mandelbrot;NARGS_SUM;14
+C++;mandelbrot;NARGS_AVG;2.33333
+C++;mandelbrot;COGNITIVE_SUM;23
+C++;mandelbrot;COGNITIVE_AVG;3.83333
+C++;mandelbrot;NEXITS;5
+C++;mandelbrot;NEXITS_AVG;0.8333333333333334
+C++;mandelbrot;NOM__functions;6
+C++;mandelbrot;NOM__closures;0
+C++;mandelbrot;NOM__total;6
+C++;mandelbrot;HALSTEAD__n1;31
+C++;mandelbrot;HALSTEAD__n2;76
+C++;mandelbrot;HALSTEAD__N1;357
+C++;mandelbrot;HALSTEAD__N2;277
+C++;mandelbrot;HALSTEAD__Vocabulary;107
+C++;mandelbrot;HALSTEAD__Length;634
+C++;mandelbrot;HALSTEAD__Volume;4274.090069378328
+C++;mandelbrot;HALSTEAD__Difficulty;56.49342105263158
+C++;mandelbrot;HALSTEAD__Level;0.01770117619657622
+C++;mandelbrot;HALSTEAD__Effort;241457.96990626122
+C++;mandelbrot;HALSTEAD__Programming time;13414.331661458957
+C++;mandelbrot;HALSTEAD__Bugs;1.2925274501455593
+C++;mandelbrot;HALSTEAD__Estimated program length;628.4225766437056
+C++;mandelbrot;HALSTEAD__Purity ratio;0.9912028022771382
+C++;mandelbrot;MI__Original;36.0826764831795
+C++;mandelbrot;MI__Sei;9.908528038966214
+C++;mandelbrot;MI__Visual Studio;21.100980399520175
+C++;nbody;SLOC;177
+C++;nbody;PLOC;120
+C++;nbody;LLOC;50
+C++;nbody;CLOC;31
+C++;nbody;BLANK;26
+C++;nbody;CC;33.0
+C++;nbody;NARGS_SUM;10
+C++;nbody;NARGS_AVG;1.666667
+C++;nbody;COGNITIVE_SUM;26
+C++;nbody;COGNITIVE_AVG;4.333333
+C++;nbody;NEXITS;5
+C++;nbody;NEXITS_AVG;0.3333333333333333
+C++;nbody;NOM__functions;6
+C++;nbody;NOM__closures;0
+C++;nbody;NOM__total;6
+C++;nbody;HALSTEAD__n1;31
+C++;nbody;HALSTEAD__n2;76
+C++;nbody;HALSTEAD__N1;357
+C++;nbody;HALSTEAD__N2;277
+C++;nbody;HALSTEAD__Vocabulary;107
+C++;nbody;HALSTEAD__Length;634
+C++;nbody;HALSTEAD__Volume;4274.090069378328
+C++;nbody;HALSTEAD__Difficulty;56.49342105263158
+C++;nbody;HALSTEAD__Level;0.01770117619657622
+C++;nbody;HALSTEAD__Effort;241457.96990626122
+C++;nbody;HALSTEAD__Programming time;13414.331661458957
+C++;nbody;HALSTEAD__Bugs;1.2925274501455593
+C++;nbody;HALSTEAD__Estimated program length;628.4225766437056
+C++;nbody;HALSTEAD__Purity ratio;0.9912028022771382
+C++;nbody;MI__Original;36.0826764831795
+C++;nbody;MI__Sei;9.908528038966214
+C++;nbody;MI__Visual Studio;21.100980399520175
+C++;regexredux;SLOC;94
+C++;regexredux;PLOC;71
+C++;regexredux;LLOC;23
+C++;regexredux;CLOC;7
+C++;regexredux;BLANK;16
+C++;regexredux;CC;6.0
+C++;regexredux;NARGS_SUM;1
+C++;regexredux;NARGS_AVG;1
+C++;regexredux;COGNITIVE_SUM;5
+C++;regexredux;COGNITIVE_AVG;5
+C++;regexredux;NEXITS;0
+C++;regexredux;NEXITS_AVG;0
+C++;regexredux;NOM__functions;1
+C++;regexredux;NOM__closures;0
+C++;regexredux;NOM__total;1
+C++;regexredux;HALSTEAD__n1;22
+C++;regexredux;HALSTEAD__n2;71
+C++;regexredux;HALSTEAD__N1;218
+C++;regexredux;HALSTEAD__N2;161
+C++;regexredux;HALSTEAD__Vocabulary;93
+C++;regexredux;HALSTEAD__Length;379
+C++;regexredux;HALSTEAD__Volume;2478.3411894099436
+C++;regexredux;HALSTEAD__Difficulty;24.943661971830984
+C++;regexredux;HALSTEAD__Level;0.04009034443817053
+C++;regexredux;HALSTEAD__Effort;61818.90487950718
+C++;regexredux;HALSTEAD__Programming time;3434.3836044170657
+C++;regexredux;HALSTEAD__Bugs;0.5211462496741232
+C++;regexredux;HALSTEAD__Estimated program length;534.7395410948529
+C++;regexredux;HALSTEAD__Purity ratio;1.4109222720180816
+C++;regexredux;MI__Original;55.37883187857979
+C++;regexredux;MI__Sei;25.31864346324061
+C++;regexredux;MI__Visual Studio;32.38528180033906
+C++;revcomp;SLOC;282
+C++;revcomp;PLOC;222
+C++;revcomp;LLOC;113
+C++;revcomp;CLOC;14
+C++;revcomp;BLANK;46
+C++;revcomp;CC;70.0
+C++;revcomp;NARGS_SUM;15
+C++;revcomp;NARGS_AVG;0.5357142857142857
+C++;revcomp;COGNITIVE_SUM;38
+C++;revcomp;COGNITIVE_AVG;1.35714285714285
+C++;revcomp;NEXITS;11
+C++;revcomp;NEXITS_AVG;0.39285714285714285
+C++;revcomp;NOM__functions;28
+C++;revcomp;NOM__closures;0
+C++;revcomp;NOM__total;28
+C++;revcomp;HALSTEAD__n1;38
+C++;revcomp;HALSTEAD__n2;123
+C++;revcomp;HALSTEAD__N1;819
+C++;revcomp;HALSTEAD__N2;535
+C++;revcomp;HALSTEAD__Vocabulary;161
+C++;revcomp;HALSTEAD__Length;1354
+C++;revcomp;HALSTEAD__Volume;9926.061452967191
+C++;revcomp;HALSTEAD__Difficulty;82.64227642276423
+C++;revcomp;HALSTEAD__Level;0.012100344318740778
+C++;revcomp;HALSTEAD__Effort;820312.3143854593
+C++;revcomp;HALSTEAD__Programming time;45572.90635474774
+C++;revcomp;HALSTEAD__Bugs;2.9210000610399707
+C++;revcomp;HALSTEAD__Estimated program length;1053.3505296675826
+C++;revcomp;HALSTEAD__Purity ratio;0.7779546009361762
+C++;revcomp;MI__Original;15.645926405158932
+C++;revcomp;MI__Sei;-29.082878320616135
+C++;revcomp;MI__Visual Studio;9.149664564420428
+C++;spectralnorm;SLOC;135
+C++;spectralnorm;PLOC;97
+C++;spectralnorm;LLOC;33
+C++;spectralnorm;CLOC;13
+C++;spectralnorm;BLANK;25
+C++;spectralnorm;CC;22.0
+C++;spectralnorm;NARGS_SUM;28
+C++;spectralnorm;NARGS_AVG;3.5
+C++;spectralnorm;COGNITIVE_SUM;12
+C++;spectralnorm;COGNITIVE_AVG;1.5
+C++;spectralnorm;NEXITS;4
+C++;spectralnorm;NEXITS_AVG;0.5
+C++;spectralnorm;NOM__functions;8
+C++;spectralnorm;NOM__closures;0
+C++;spectralnorm;NOM__total;8
+C++;spectralnorm;HALSTEAD__n1;24
+C++;spectralnorm;HALSTEAD__n2;61
+C++;spectralnorm;HALSTEAD__N1;409
+C++;spectralnorm;HALSTEAD__N2;284
+C++;spectralnorm;HALSTEAD__Vocabulary;85
+C++;spectralnorm;HALSTEAD__Length;693
+C++;spectralnorm;HALSTEAD__Volume;4441.707918743427
+C++;spectralnorm;HALSTEAD__Difficulty;55.868852459016395
+C++;spectralnorm;HALSTEAD__Level;0.017899061032863848
+C++;spectralnorm;HALSTEAD__Effort;248153.1243783213
+C++;spectralnorm;HALSTEAD__Programming time;13786.284687684518
+C++;spectralnorm;HALSTEAD__Bugs;1.3163112012968532
+C++;spectralnorm;HALSTEAD__Estimated program length;471.81407760864386
+C++;spectralnorm;HALSTEAD__Purity ratio;0.6808283948176679
+C++;spectralnorm;MI__Original;42.800818500504576
+C++;spectralnorm;MI__Sei;11.409492315309578
+C++;spectralnorm;MI__Visual Studio;25.029718421347706
+C;binarytrees;SLOC;139
+C;binarytrees;PLOC;74
+C;binarytrees;LLOC;28
+C;binarytrees;CLOC;39
+C;binarytrees;BLANK;26
+C;binarytrees;CC;12.0
+C;binarytrees;NARGS_SUM;3
+C;binarytrees;NARGS_AVG;1
+C;binarytrees;COGNITIVE_SUM;9
+C;binarytrees;COGNITIVE_AVG;3
+C;binarytrees;NEXITS;4
+C;binarytrees;NEXITS_AVG;1.3333333333333333
+C;binarytrees;NOM__functions;3
+C;binarytrees;NOM__closures;0
+C;binarytrees;NOM__total;3
+C;binarytrees;HALSTEAD__n1;23
+C;binarytrees;HALSTEAD__n2;45
+C;binarytrees;HALSTEAD__N1;204
+C;binarytrees;HALSTEAD__N2;166
+C;binarytrees;HALSTEAD__Vocabulary;68
+C;binarytrees;HALSTEAD__Length;370
+C;binarytrees;HALSTEAD__Volume;2252.3612512626255
+C;binarytrees;HALSTEAD__Difficulty;42.422222222222224
+C;binarytrees;HALSTEAD__Level;0.023572551073860658
+C;binarytrees;HALSTEAD__Effort;95550.1695257856
+C;binarytrees;HALSTEAD__Programming time;5308.342751432534
+C;binarytrees;HALSTEAD__Bugs;0.6966795348870725
+C;binarytrees;HALSTEAD__Estimated program length;351.17531432414665
+C;binarytrees;HALSTEAD__Purity ratio;0.9491224711463423
+C;binarytrees;MI__Original;48.15890345569035
+C;binarytrees;MI__Sei;31.577285388498545
+C;binarytrees;MI__Visual Studio;28.16310143607623
+C;fannkuchredux;SLOC;174
+C;fannkuchredux;PLOC;86
+C;fannkuchredux;LLOC;41
+C;fannkuchredux;CLOC;54
+C;fannkuchredux;BLANK;34
+C;fannkuchredux;CC;22.0
+C;fannkuchredux;NARGS_SUM;2
+C;fannkuchredux;NARGS_AVG;2
+C;fannkuchredux;COGNITIVE_SUM;56
+C;fannkuchredux;COGNITIVE_AVG;56
+C;fannkuchredux;NEXITS;1
+C;fannkuchredux;NEXITS_AVG;1
+C;fannkuchredux;NOM__functions;1
+C;fannkuchredux;NOM__closures;0
+C;fannkuchredux;NOM__total;1
+C;fannkuchredux;HALSTEAD__n1;30
+C;fannkuchredux;HALSTEAD__n2;33
+C;fannkuchredux;HALSTEAD__N1;285
+C;fannkuchredux;HALSTEAD__N2;240
+C;fannkuchredux;HALSTEAD__Vocabulary;63
+C;fannkuchredux;HALSTEAD__Length;525
+C;fannkuchredux;HALSTEAD__Volume;3138.0719598374562
+C;fannkuchredux;HALSTEAD__Difficulty;109.0909090909091
+C;fannkuchredux;HALSTEAD__Level;0.009166666666666667
+C;fannkuchredux;HALSTEAD__Effort;342335.12289135886
+C;fannkuchredux;HALSTEAD__Programming time;19018.617938408825
+C;fannkuchredux;HALSTEAD__Bugs;1.6312219298557251
+C;fannkuchredux;HALSTEAD__Estimated program length;313.6717238070845
+C;fannkuchredux;HALSTEAD__Purity ratio;0.5974699501087324
+C;fannkuchredux;MI__Original;40.49621205585848
+C;fannkuchredux;MI__Sei;22.95379571466426
+C;fannkuchredux;MI__Visual Studio;23.681995354303204
+C;fasta;SLOC;344
+C;fasta;PLOC;255
+C;fasta;LLOC;90
+C;fasta;CLOC;49
+C;fasta;BLANK;40
+C;fasta;CC;35.0
+C;fasta;NARGS_SUM;15
+C;fasta;NARGS_AVG;1.875
+C;fasta;COGNITIVE_SUM;42
+C;fasta;COGNITIVE_AVG;5.25
+C;fasta;NEXITS;4
+C;fasta;NEXITS_AVG;0.5
+C;fasta;NOM__functions;8
+C;fasta;NOM__closures;0
+C;fasta;NOM__total;8
+C;fasta;HALSTEAD__n1;31
+C;fasta;HALSTEAD__n2;115
+C;fasta;HALSTEAD__N1;570
+C;fasta;HALSTEAD__N2;415
+C;fasta;HALSTEAD__Vocabulary;146
+C;fasta;HALSTEAD__Length;985
+C;fasta;HALSTEAD__Volume;7081.9771904968175
+C;fasta;HALSTEAD__Difficulty;55.93478260869565
+C;fasta;HALSTEAD__Level;0.017877963466770307
+C;fasta;HALSTEAD__Effort;396128.8545901807
+C;fasta;HALSTEAD__Programming time;22007.158588343373
+C;fasta;HALSTEAD__Bugs;1.7979173803681505
+C;fasta;HALSTEAD__Estimated program length;940.8114414805963
+C;fasta;HALSTEAD__Purity ratio;0.9551385192696409
+C;fasta;MI__Original;22.23200140869568
+C;fasta;MI__Sei;-12.466182327989948
+C;fasta;MI__Visual Studio;13.001170414441917
+C;knucleotide;SLOC;247
+C;knucleotide;PLOC;135
+C;knucleotide;LLOC;56
+C;knucleotide;CLOC;56
+C;knucleotide;BLANK;56
+C;knucleotide;CC;27.0
+C;knucleotide;NARGS_SUM;10
+C;knucleotide;NARGS_AVG;2.5
+C;knucleotide;COGNITIVE_SUM;28
+C;knucleotide;COGNITIVE_AVG;7
+C;knucleotide;NEXITS;4
+C;knucleotide;NEXITS_AVG;1
+C;knucleotide;NOM__functions;4
+C;knucleotide;NOM__closures;0
+C;knucleotide;NOM__total;4
+C;knucleotide;HALSTEAD__n1;34
+C;knucleotide;HALSTEAD__n2;79
+C;knucleotide;HALSTEAD__N1;482
+C;knucleotide;HALSTEAD__N2;385
+C;knucleotide;HALSTEAD__Vocabulary;113
+C;knucleotide;HALSTEAD__Length;867
+C;knucleotide;HALSTEAD__Volume;5913.095160413968
+C;knucleotide;HALSTEAD__Difficulty;82.84810126582279
+C;knucleotide;HALSTEAD__Level;0.012070282658517952
+C;knucleotide;HALSTEAD__Effort;489888.7066444231
+C;knucleotide;HALSTEAD__Programming time;27216.039258023506
+C;knucleotide;HALSTEAD__Bugs;2.0714622848378177
+C;knucleotide;HALSTEAD__Estimated program length;670.9724157085027
+C;knucleotide;HALSTEAD__Purity ratio;0.7739012868610181
+C;knucleotide;MI__Original;30.376300563228924
+C;knucleotide;MI__Sei;4.499605876006868
+C;knucleotide;MI__Visual Studio;17.76391845802861
+C;mandelbrot;SLOC;201
+C;mandelbrot;PLOC;140
+C;mandelbrot;LLOC;60
+C;mandelbrot;CLOC;22
+C;mandelbrot;BLANK;39
+C;mandelbrot;CC;39.0
+C;mandelbrot;NARGS_SUM;17
+C;mandelbrot;NARGS_AVG;2.42857
+C;mandelbrot;COGNITIVE_SUM;33
+C;mandelbrot;COGNITIVE_AVG;4.7142857
+C;mandelbrot;NEXITS;5
+C;mandelbrot;NEXITS_AVG;0.7142857142857143
+C;mandelbrot;NOM__functions;7
+C;mandelbrot;NOM__closures;0
+C;mandelbrot;NOM__total;7
+C;mandelbrot;HALSTEAD__n1;33
+C;mandelbrot;HALSTEAD__n2;78
+C;mandelbrot;HALSTEAD__N1;500
+C;mandelbrot;HALSTEAD__N2;395
+C;mandelbrot;HALSTEAD__Vocabulary;111
+C;mandelbrot;HALSTEAD__Length;895
+C;mandelbrot;HALSTEAD__Volume;6081.002200383345
+C;mandelbrot;HALSTEAD__Difficulty;83.5576923076923
+C;mandelbrot;HALSTEAD__Level;0.011967779056386652
+C;mandelbrot;HALSTEAD__Effort;508114.5107820314
+C;mandelbrot;HALSTEAD__Programming time;28228.583932335077
+C;mandelbrot;HALSTEAD__Bugs;2.122526610378524
+C;mandelbrot;HALSTEAD__Estimated program length;656.7263790100843
+C;mandelbrot;HALSTEAD__Purity ratio;0.7337724905140607
+C;mandelbrot;MI__Original;30.8092515452214
+C;mandelbrot;MI__Sei;-2.7623552082978513
+C;mandelbrot;MI__Visual Studio;18.01710616679614
+C;nbody;SLOC;160
+C;nbody;PLOC;128
+C;nbody;LLOC;39
+C;nbody;CLOC;13
+C;nbody;BLANK;19
+C;nbody;CC;28.0
+C;nbody;NARGS_SUM;9
+C;nbody;NARGS_AVG;2.25
+C;nbody;COGNITIVE_SUM;30
+C;nbody;COGNITIVE_AVG;7.5
+C;nbody;NEXITS;2
+C;nbody;NEXITS_AVG;0.5
+C;nbody;NOM__functions;4
+C;nbody;NOM__closures;0
+C;nbody;NOM__total;4
+C;nbody;HALSTEAD__n1;19
+C;nbody;HALSTEAD__n2;85
+C;nbody;HALSTEAD__N1;534
+C;nbody;HALSTEAD__N2;429
+C;nbody;HALSTEAD__Vocabulary;104
+C;nbody;HALSTEAD__Length;963
+C;nbody;HALSTEAD__Volume;6452.523448569871
+C;nbody;HALSTEAD__Difficulty;47.94705882352941
+C;nbody;HALSTEAD__Level;0.020856336645810332
+C;nbody;HALSTEAD__Effort;309379.52134878247
+C;nbody;HALSTEAD__Programming time;17187.75118604347
+C;nbody;HALSTEAD__Bugs;1.5247774273398966
+C;nbody;HALSTEAD__Estimated program length;625.5088523271327
+C;nbody;HALSTEAD__Purity ratio;0.6495419027280713
+C;nbody;MI__Original;36.72660605201497
+C;nbody;MI__Sei;1.5041821017136954
+C;nbody;MI__Visual Studio;21.477547398839164
+C;regexredux;SLOC;208
+C;regexredux;PLOC;111
+C;regexredux;LLOC;38
+C;regexredux;CLOC;51
+C;regexredux;BLANK;46
+C;regexredux;CC;12.0
+C;regexredux;NARGS_SUM;6
+C;regexredux;NARGS_AVG;3
+C;regexredux;COGNITIVE_SUM;11
+C;regexredux;COGNITIVE_AVG;5.5
+C;regexredux;NEXITS;1
+C;regexredux;NEXITS_AVG;0.5
+C;regexredux;NOM__functions;2
+C;regexredux;NOM__closures;0
+C;regexredux;NOM__total;2
+C;regexredux;HALSTEAD__n1;26
+C;regexredux;HALSTEAD__n2;77
+C;regexredux;HALSTEAD__N1;410
+C;regexredux;HALSTEAD__N2;328
+C;regexredux;HALSTEAD__Vocabulary;103
+C;regexredux;HALSTEAD__Length;738
+C;regexredux;HALSTEAD__Volume;4934.637389061215
+C;regexredux;HALSTEAD__Difficulty;55.37662337662338
+C;regexredux;HALSTEAD__Level;0.018058161350844277
+C;regexredux;HALSTEAD__Effort;273263.55619424704
+C;regexredux;HALSTEAD__Programming time;15181.308677458168
+C;regexredux;HALSTEAD__Bugs;1.4036749703370608
+C;regexredux;HALSTEAD__Estimated program length;604.7539963051757
+C;regexredux;HALSTEAD__Purity ratio;0.819449859492108
+C;regexredux;MI__Original;37.550903855613285
+C;regexredux;MI__Sei;14.398456559195303
+C;regexredux;MI__Visual Studio;21.959592898019466
+C;revcomp;SLOC;151
+C;revcomp;PLOC;77
+C;revcomp;LLOC;37
+C;revcomp;CLOC;41
+C;revcomp;BLANK;33
+C;revcomp;CC;17.0
+C;revcomp;NARGS_SUM;3
+C;revcomp;NARGS_AVG;1.5
+C;revcomp;COGNITIVE_SUM;21
+C;revcomp;COGNITIVE_AVG;10.5
+C;revcomp;NEXITS;1
+C;revcomp;NEXITS_AVG;0.5
+C;revcomp;NOM__functions;2
+C;revcomp;NOM__closures;0
+C;revcomp;NOM__total;2
+C;revcomp;HALSTEAD__n1;25
+C;revcomp;HALSTEAD__n2;29
+C;revcomp;HALSTEAD__N1;194
+C;revcomp;HALSTEAD__N2;128
+C;revcomp;HALSTEAD__Vocabulary;54
+C;revcomp;HALSTEAD__Length;322
+C;revcomp;HALSTEAD__Volume;1853.0737756966369
+C;revcomp;HALSTEAD__Difficulty;55.172413793103445
+C;revcomp;HALSTEAD__Level;0.018125000000000002
+C;revcomp;HALSTEAD__Effort;102238.5531418834
+C;revcomp;HALSTEAD__Programming time;5679.919618993522
+C;revcomp;HALSTEAD__Bugs;0.7288226738088915
+C;revcomp;HALSTEAD__Estimated program length;256.9778536030677
+C;revcomp;HALSTEAD__Purity ratio;0.7980678683325083
+C;revcomp;MI__Original;46.68214123724049
+C;revcomp;MI__Sei;29.49766081859525
+C;revcomp;MI__Visual Studio;27.29949779955584
+C;spectralnorm;SLOC;255
+C;spectralnorm;PLOC;156
+C;spectralnorm;LLOC;44
+C;spectralnorm;CLOC;63
+C;spectralnorm;BLANK;36
+C;spectralnorm;CC;28.0
+C;spectralnorm;NARGS_SUM;12
+C;spectralnorm;NARGS_AVG;1.33
+C;spectralnorm;COGNITIVE_SUM;16
+C;spectralnorm;COGNITIVE_AVG;1.7777
+C;spectralnorm;NEXITS;6
+C;spectralnorm;NEXITS_AVG;0.6666666666666666
+C;spectralnorm;NOM__functions;9
+C;spectralnorm;NOM__closures;0
+C;spectralnorm;NOM__total;9
+C;spectralnorm;HALSTEAD__n1;25
+C;spectralnorm;HALSTEAD__n2;67
+C;spectralnorm;HALSTEAD__N1;506
+C;spectralnorm;HALSTEAD__N2;363
+C;spectralnorm;HALSTEAD__Vocabulary;92
+C;spectralnorm;HALSTEAD__Length;869
+C;spectralnorm;HALSTEAD__Volume;5668.975339813544
+C;spectralnorm;HALSTEAD__Difficulty;67.72388059701493
+C;spectralnorm;HALSTEAD__Level;0.014765840220385676
+C;spectralnorm;HALSTEAD__Effort;383925.0090209546
+C;spectralnorm;HALSTEAD__Programming time;21329.167167830812
+C;spectralnorm;HALSTEAD__Bugs;1.7607985856908024
+C;spectralnorm;HALSTEAD__Estimated program length;522.5243805050388
+C;spectralnorm;HALSTEAD__Purity ratio;0.6012938786018859
+C;spectralnorm;MI__Original;29.84915951402978
+C;spectralnorm;MI__Sei;5.021060152791847
+C;spectralnorm;MI__Visual Studio;17.455648838613907
+JavaScript;binarytrees;SLOC;50
+JavaScript;binarytrees;PLOC;36
+JavaScript;binarytrees;LLOC;25
+JavaScript;binarytrees;CLOC;5
+JavaScript;binarytrees;BLANK;9
+JavaScript;binarytrees;CC;8.0
+JavaScript;binarytrees;NARGS_SUM;4
+JavaScript;binarytrees;NARGS_AVG;1.33333
+JavaScript;binarytrees;COGNITIVE_SUM;7
+JavaScript;binarytrees;COGNITIVE_AVG;2.33333
+JavaScript;binarytrees;NEXITS;4
+JavaScript;binarytrees;NEXITS_AVG;1.3333333333333333
+JavaScript;binarytrees;NOM__functions;3
+JavaScript;binarytrees;NOM__closures;0
+JavaScript;binarytrees;NOM__total;3
+JavaScript;binarytrees;HALSTEAD__n1;20
+JavaScript;binarytrees;HALSTEAD__n2;27
+JavaScript;binarytrees;HALSTEAD__N1;115
+JavaScript;binarytrees;HALSTEAD__N2;85
+JavaScript;binarytrees;HALSTEAD__Vocabulary;47
+JavaScript;binarytrees;HALSTEAD__Length;200
+JavaScript;binarytrees;HALSTEAD__Volume;1110.9177703355276
+JavaScript;binarytrees;HALSTEAD__Difficulty;31.48148148148148
+JavaScript;binarytrees;HALSTEAD__Level;0.031764705882352945
+JavaScript;binarytrees;HALSTEAD__Effort;34973.33721426661
+JavaScript;binarytrees;HALSTEAD__Programming time;1942.9631785703673
+JavaScript;binarytrees;HALSTEAD__Bugs;0.35648133497983825
+JavaScript;binarytrees;HALSTEAD__Estimated program length;214.8205244561609
+JavaScript;binarytrees;HALSTEAD__Purity ratio;1.0741026222808046
+JavaScript;binarytrees;MI__Original;69.31793009349876
+JavaScript;binarytrees;MI__Sei;48.64513299274641
+JavaScript;binarytrees;MI__Visual Studio;40.53680122426828
+JavaScript;fannkuchredux;SLOC;52
+JavaScript;fannkuchredux;PLOC;41
+JavaScript;fannkuchredux;LLOC;60
+JavaScript;fannkuchredux;CLOC;16
+JavaScript;fannkuchredux;BLANK;0
+JavaScript;fannkuchredux;CC;16.0
+JavaScript;fannkuchredux;NARGS_SUM;1
+JavaScript;fannkuchredux;NARGS_AVG;1
+JavaScript;fannkuchredux;COGNITIVE_SUM;46
+JavaScript;fannkuchredux;COGNITIVE_AVG;46
+JavaScript;fannkuchredux;NEXITS;1
+JavaScript;fannkuchredux;NEXITS_AVG;1
+JavaScript;fannkuchredux;NOM__functions;1
+JavaScript;fannkuchredux;NOM__closures;0
+JavaScript;fannkuchredux;NOM__total;1
+JavaScript;fannkuchredux;HALSTEAD__n1;25
+JavaScript;fannkuchredux;HALSTEAD__n2;27
+JavaScript;fannkuchredux;HALSTEAD__N1;182
+JavaScript;fannkuchredux;HALSTEAD__N2;162
+JavaScript;fannkuchredux;HALSTEAD__Vocabulary;52
+JavaScript;fannkuchredux;HALSTEAD__Length;344
+JavaScript;fannkuchredux;HALSTEAD__Volume;1960.9512630405357
+JavaScript;fannkuchredux;HALSTEAD__Difficulty;75.0
+JavaScript;fannkuchredux;HALSTEAD__Level;0.013333333333333334
+JavaScript;fannkuchredux;HALSTEAD__Effort;147071.34472804016
+JavaScript;fannkuchredux;HALSTEAD__Programming time;8170.630262668898
+JavaScript;fannkuchredux;HALSTEAD__Bugs;0.9287470646953468
+JavaScript;fannkuchredux;HALSTEAD__Estimated program length;244.47836730278175
+JavaScript;fannkuchredux;HALSTEAD__Purity ratio;0.7106929282057609
+JavaScript;fannkuchredux;MI__Original;63.887689900566386
+JavaScript;fannkuchredux;MI__Sei;55.96923838032948
+JavaScript;fannkuchredux;MI__Visual Studio;37.36122216407391
+JavaScript;fasta;SLOC;242
+JavaScript;fasta;PLOC;177
+JavaScript;fasta;LLOC;97
+JavaScript;fasta;CLOC;5
+JavaScript;fasta;BLANK;60
+JavaScript;fasta;CC;35.0
+JavaScript;fasta;NARGS_SUM;22
+JavaScript;fasta;NARGS_AVG;1.29411
+JavaScript;fasta;COGNITIVE_SUM;23
+JavaScript;fasta;COGNITIVE_AVG;1.35294
+JavaScript;fasta;NEXITS;17
+JavaScript;fasta;NEXITS_AVG;1
+JavaScript;fasta;NOM__functions;13
+JavaScript;fasta;NOM__closures;4
+JavaScript;fasta;NOM__total;17
+JavaScript;fasta;HALSTEAD__n1;31
+JavaScript;fasta;HALSTEAD__n2;105
+JavaScript;fasta;HALSTEAD__N1;549
+JavaScript;fasta;HALSTEAD__N2;330
+JavaScript;fasta;HALSTEAD__Vocabulary;136
+JavaScript;fasta;HALSTEAD__Length;879
+JavaScript;fasta;HALSTEAD__Volume;6229.879837459048
+JavaScript;fasta;HALSTEAD__Difficulty;48.714285714285715
+JavaScript;fasta;HALSTEAD__Level;0.020527859237536656
+JavaScript;fasta;HALSTEAD__Effort;303484.1463676479
+JavaScript;fasta;HALSTEAD__Programming time;16860.23035375822
+JavaScript;fasta;HALSTEAD__Bugs;1.5053451393999506
+JavaScript;fasta;HALSTEAD__Estimated program length;858.575864976936
+JavaScript;fasta;HALSTEAD__Purity ratio;0.9767643515095973
+JavaScript;fasta;MI__Original;28.59622475214701
+JavaScript;fasta;MI__Sei;-19.839270012434973
+JavaScript;fasta;MI__Visual Studio;16.722938451547957
+JavaScript;knucleotide;SLOC;92
+JavaScript;knucleotide;PLOC;76
+JavaScript;knucleotide;LLOC;64
+JavaScript;knucleotide;CLOC;7
+JavaScript;knucleotide;BLANK;9
+JavaScript;knucleotide;CC;28.0
+JavaScript;knucleotide;NARGS_SUM;12
+JavaScript;knucleotide;NARGS_AVG;1
+JavaScript;knucleotide;COGNITIVE_SUM;15
+JavaScript;knucleotide;COGNITIVE_AVG;1.25
+JavaScript;knucleotide;NEXITS;5
+JavaScript;knucleotide;NEXITS_AVG;0.4166666666666667
+JavaScript;knucleotide;NOM__functions;11
+JavaScript;knucleotide;NOM__closures;1
+JavaScript;knucleotide;NOM__total;12
+JavaScript;knucleotide;HALSTEAD__n1;30
+JavaScript;knucleotide;HALSTEAD__n2;68
+JavaScript;knucleotide;HALSTEAD__N1;283
+JavaScript;knucleotide;HALSTEAD__N2;200
+JavaScript;knucleotide;HALSTEAD__Vocabulary;98
+JavaScript;knucleotide;HALSTEAD__Length;483
+JavaScript;knucleotide;HALSTEAD__Volume;3194.9048547076454
+JavaScript;knucleotide;HALSTEAD__Difficulty;44.11764705882353
+JavaScript;knucleotide;HALSTEAD__Level;0.02266666666666667
+JavaScript;knucleotide;HALSTEAD__Effort;140951.68476651376
+JavaScript;knucleotide;HALSTEAD__Programming time;7830.649153695209
+JavaScript;knucleotide;HALSTEAD__Bugs;0.9028014739671906
+JavaScript;knucleotide;HALSTEAD__Estimated program length;561.1541910732786
+JavaScript;knucleotide;HALSTEAD__Purity ratio;1.161809919406374
+JavaScript;knucleotide;MI__Original;49.346599599748785
+JavaScript;knucleotide;MI__Sei;19.06419873801134
+JavaScript;knucleotide;MI__Visual Studio;28.857660584648414
+JavaScript;mandelbrot;SLOC;99
+JavaScript;mandelbrot;PLOC;76
+JavaScript;mandelbrot;LLOC;51
+JavaScript;mandelbrot;CLOC;11
+JavaScript;mandelbrot;BLANK;12
+JavaScript;mandelbrot;CC;17.0
+JavaScript;mandelbrot;NARGS_SUM;3
+JavaScript;mandelbrot;NARGS_AVG;1
+JavaScript;mandelbrot;COGNITIVE_SUM;26
+JavaScript;mandelbrot;COGNITIVE_AVG;8.666666
+JavaScript;mandelbrot;NEXITS;1
+JavaScript;mandelbrot;NEXITS_AVG;0.3333333333333333
+JavaScript;mandelbrot;NOM__functions;3
+JavaScript;mandelbrot;NOM__closures;0
+JavaScript;mandelbrot;NOM__total;3
+JavaScript;mandelbrot;HALSTEAD__n1;29
+JavaScript;mandelbrot;HALSTEAD__n2;56
+JavaScript;mandelbrot;HALSTEAD__N1;229
+JavaScript;mandelbrot;HALSTEAD__N2;179
+JavaScript;mandelbrot;HALSTEAD__Vocabulary;85
+JavaScript;mandelbrot;HALSTEAD__Length;408
+JavaScript;mandelbrot;HALSTEAD__Volume;2615.0315019441823
+JavaScript;mandelbrot;HALSTEAD__Difficulty;46.348214285714285
+JavaScript;mandelbrot;HALSTEAD__Level;0.021575804276632634
+JavaScript;mandelbrot;HALSTEAD__Effort;121202.04041600223
+JavaScript;mandelbrot;HALSTEAD__Programming time;6733.446689777902
+JavaScript;mandelbrot;HALSTEAD__Bugs;0.8163668592877504
+JavaScript;mandelbrot;HALSTEAD__Estimated program length;466.09332449392537
+JavaScript;mandelbrot;HALSTEAD__Purity ratio;1.142385599249817
+JavaScript;mandelbrot;MI__Original;51.730095027912654
+JavaScript;mandelbrot;MI__Sei;25.34837941970405
+JavaScript;mandelbrot;MI__Visual Studio;30.25151756018284
+JavaScript;nbody;SLOC;162
+JavaScript;nbody;PLOC;135
+JavaScript;nbody;LLOC;79
+JavaScript;nbody;CLOC;3
+JavaScript;nbody;BLANK;24
+JavaScript;nbody;CC;18.0
+JavaScript;nbody;NARGS_SUM;12
+JavaScript;nbody;NARGS_AVG;1.2
+JavaScript;nbody;COGNITIVE_SUM;9
+JavaScript;nbody;COGNITIVE_AVG;0.9
+JavaScript;nbody;NEXITS;7
+JavaScript;nbody;NEXITS_AVG;0.7
+JavaScript;nbody;NOM__functions;10
+JavaScript;nbody;NOM__closures;0
+JavaScript;nbody;NOM__total;10
+JavaScript;nbody;HALSTEAD__n1;18
+JavaScript;nbody;HALSTEAD__n2;80
+JavaScript;nbody;HALSTEAD__N1;410
+JavaScript;nbody;HALSTEAD__N2;311
+JavaScript;nbody;HALSTEAD__Vocabulary;98
+JavaScript;nbody;HALSTEAD__Length;721
+JavaScript;nbody;HALSTEAD__Volume;4769.2057976070655
+JavaScript;nbody;HALSTEAD__Difficulty;34.9875
+JavaScript;nbody;HALSTEAD__Level;0.0285816362986781
+JavaScript;nbody;HALSTEAD__Effort;166862.5878437772
+JavaScript;nbody;HALSTEAD__Programming time;9270.143769098733
+JavaScript;nbody;HALSTEAD__Bugs;1.0103024242212915
+JavaScript;nbody;HALSTEAD__Estimated program length;580.8128976169506
+JavaScript;nbody;HALSTEAD__Purity ratio;0.8055657387197651
+JavaScript;nbody;MI__Original;40.39727700229028
+JavaScript;nbody;MI__Sei;-5.12412539241763
+JavaScript;nbody;MI__Visual Studio;23.624138597830573
+JavaScript;regexredux;SLOC;33
+JavaScript;regexredux;PLOC;22
+JavaScript;regexredux;LLOC;10
+JavaScript;regexredux;CLOC;8
+JavaScript;regexredux;BLANK;3
+JavaScript;regexredux;CC;4.0
+JavaScript;regexredux;NARGS_SUM;0
+JavaScript;regexredux;NARGS_AVG;0
+JavaScript;regexredux;COGNITIVE_SUM;4
+JavaScript;regexredux;COGNITIVE_AVG;4
+JavaScript;regexredux;NEXITS;0
+JavaScript;regexredux;NEXITS_AVG;0
+JavaScript;regexredux;NOM__functions;0
+JavaScript;regexredux;NOM__closures;0
+JavaScript;regexredux;NOM__total;0
+JavaScript;regexredux;HALSTEAD__n1;14
+JavaScript;regexredux;HALSTEAD__n2;23
+JavaScript;regexredux;HALSTEAD__N1;113
+JavaScript;regexredux;HALSTEAD__N2;50
+JavaScript;regexredux;HALSTEAD__Vocabulary;37
+JavaScript;regexredux;HALSTEAD__Length;163
+JavaScript;regexredux;HALSTEAD__Volume;849.1408985975189
+JavaScript;regexredux;HALSTEAD__Difficulty;15.217391304347826
+JavaScript;regexredux;HALSTEAD__Level;0.06571428571428571
+JavaScript;regexredux;HALSTEAD__Effort;12921.709326483984
+JavaScript;regexredux;HALSTEAD__Programming time;717.8727403602213
+JavaScript;regexredux;HALSTEAD__Bugs;0.18355183201932318
+JavaScript;regexredux;HALSTEAD__Estimated program length;157.34489389811776
+JavaScript;regexredux;HALSTEAD__Purity ratio;0.9653060975344648
+JavaScript;regexredux;MI__Original;78.36660682386069
+JavaScript;regexredux;MI__Sei;72.31187482648421
+JavaScript;regexredux;MI__Visual Studio;45.82842504319339
+JavaScript;revcomp;SLOC;186
+JavaScript;revcomp;PLOC;148
+JavaScript;revcomp;LLOC;110
+JavaScript;revcomp;CLOC;20
+JavaScript;revcomp;BLANK;18
+JavaScript;revcomp;CC;24.0
+JavaScript;revcomp;NARGS_SUM;3
+JavaScript;revcomp;NARGS_AVG;0.75
+JavaScript;revcomp;COGNITIVE_SUM;40
+JavaScript;revcomp;COGNITIVE_AVG;10
+JavaScript;revcomp;NEXITS;2
+JavaScript;revcomp;NEXITS_AVG;0.5
+JavaScript;revcomp;NOM__functions;4
+JavaScript;revcomp;NOM__closures;0
+JavaScript;revcomp;NOM__total;4
+JavaScript;revcomp;HALSTEAD__n1;29
+JavaScript;revcomp;HALSTEAD__n2;69
+JavaScript;revcomp;HALSTEAD__N1;439
+JavaScript;revcomp;HALSTEAD__N2;290
+JavaScript;revcomp;HALSTEAD__Vocabulary;98
+JavaScript;revcomp;HALSTEAD__Length;729
+JavaScript;revcomp;HALSTEAD__Volume;4822.123476359987
+JavaScript;revcomp;HALSTEAD__Difficulty;60.94202898550725
+JavaScript;revcomp;HALSTEAD__Level;0.016409036860879904
+JavaScript;revcomp;HALSTEAD__Effort;293869.9886680253
+JavaScript;revcomp;HALSTEAD__Programming time;16326.110481556962
+JavaScript;revcomp;HALSTEAD__Bugs;1.4733827109553517
+JavaScript;revcomp;HALSTEAD__Estimated program length;562.3696363763933
+JavaScript;revcomp;HALSTEAD__Purity ratio;0.7714261129991677
+JavaScript;revcomp;MI__Original;36.72186162633774
+JavaScript;revcomp;MI__Sei;4.042833620573553
+JavaScript;revcomp;MI__Visual Studio;21.474772880899263
+JavaScript;spectralnorm;SLOC;50
+JavaScript;spectralnorm;PLOC;36
+JavaScript;spectralnorm;LLOC;25
+JavaScript;spectralnorm;CLOC;5
+JavaScript;spectralnorm;BLANK;9
+JavaScript;spectralnorm;CC;8.0
+JavaScript;spectralnorm;NARGS_SUM;10
+JavaScript;spectralnorm;NARGS_AVG;2
+JavaScript;spectralnorm;COGNITIVE_SUM;9
+JavaScript;spectralnorm;COGNITIVE_AVG;1.8
+JavaScript;spectralnorm;NEXITS;4
+JavaScript;spectralnorm;NEXITS_AVG;0.4
+JavaScript;spectralnorm;NOM__functions;3
+JavaScript;spectralnorm;NOM__closures;0
+JavaScript;spectralnorm;NOM__total;3
+JavaScript;spectralnorm;HALSTEAD__n1;20
+JavaScript;spectralnorm;HALSTEAD__n2;27
+JavaScript;spectralnorm;HALSTEAD__N1;115
+JavaScript;spectralnorm;HALSTEAD__N2;85
+JavaScript;spectralnorm;HALSTEAD__Vocabulary;47
+JavaScript;spectralnorm;HALSTEAD__Length;200
+JavaScript;spectralnorm;HALSTEAD__Volume;1110.9177703355276
+JavaScript;spectralnorm;HALSTEAD__Difficulty;31.48148148148148
+JavaScript;spectralnorm;HALSTEAD__Level;0.031764705882352945
+JavaScript;spectralnorm;HALSTEAD__Effort;34973.33721426661
+JavaScript;spectralnorm;HALSTEAD__Programming time;1942.9631785703673
+JavaScript;spectralnorm;HALSTEAD__Bugs;0.35648133497983825
+JavaScript;spectralnorm;HALSTEAD__Estimated program length;214.8205244561609
+JavaScript;spectralnorm;HALSTEAD__Purity ratio;1.0741026222808046
+JavaScript;spectralnorm;MI__Original;69.31793009349876
+JavaScript;spectralnorm;MI__Sei;48.64513299274641
+JavaScript;spectralnorm;MI__Visual Studio;40.53680122426828
+Python;binarytrees;SLOC;76
+Python;binarytrees;PLOC;48
+Python;binarytrees;LLOC;39
+Python;binarytrees;CLOC;6
+Python;binarytrees;BLANK;22
+Python;binarytrees;CC;16.0
+Python;binarytrees;NARGS_SUM;10
+Python;binarytrees;NARGS_AVG;2
+Python;binarytrees;COGNITIVE_SUM;13
+Python;binarytrees;COGNITIVE_AVG;2.6
+Python;binarytrees;NEXITS;5
+Python;binarytrees;NEXITS_AVG;1
+Python;binarytrees;NOM__functions;5
+Python;binarytrees;NOM__closures;0
+Python;binarytrees;NOM__total;5
+Python;binarytrees;HALSTEAD__n1;22
+Python;binarytrees;HALSTEAD__n2;52
+Python;binarytrees;HALSTEAD__N1;94
+Python;binarytrees;HALSTEAD__N2;142
+Python;binarytrees;HALSTEAD__Vocabulary;74
+Python;binarytrees;HALSTEAD__Length;236
+Python;binarytrees;HALSTEAD__Volume;1465.4309942884322
+Python;binarytrees;HALSTEAD__Difficulty;30.03846153846154
+Python;binarytrees;HALSTEAD__Level;0.03329065300896287
+Python;binarytrees;HALSTEAD__Effort;44019.29255920252
+Python;binarytrees;HALSTEAD__Programming time;2445.516253289029
+Python;binarytrees;HALSTEAD__Bugs;0.4155667428621877
+Python;binarytrees;HALSTEAD__Estimated program length;394.5303609533573
+Python;binarytrees;HALSTEAD__Purity ratio;1.6717388175989716
+Python;binarytrees;MI__Original;59.254615591723194
+Python;binarytrees;MI__Sei;32.498081939061336
+Python;binarytrees;MI__Visual Studio;34.651821983463854
+Python;fannkuchredux;SLOC;106
+Python;fannkuchredux;PLOC;85
+Python;fannkuchredux;LLOC;77
+Python;fannkuchredux;CLOC;5
+Python;fannkuchredux;BLANK;16
+Python;fannkuchredux;CC;33.0
+Python;fannkuchredux;NARGS_SUM;10
+Python;fannkuchredux;NARGS_AVG;2
+Python;fannkuchredux;COGNITIVE_SUM;52
+Python;fannkuchredux;COGNITIVE_AVG;10.4
+Python;fannkuchredux;NEXITS;1
+Python;fannkuchredux;NEXITS_AVG;0.2
+Python;fannkuchredux;NOM__functions;4
+Python;fannkuchredux;NOM__closures;1
+Python;fannkuchredux;NOM__total;5
+Python;fannkuchredux;HALSTEAD__n1;30
+Python;fannkuchredux;HALSTEAD__n2;72
+Python;fannkuchredux;HALSTEAD__N1;182
+Python;fannkuchredux;HALSTEAD__N2;281
+Python;fannkuchredux;HALSTEAD__Vocabulary;102
+Python;fannkuchredux;HALSTEAD__Length;463
+Python;fannkuchredux;HALSTEAD__Volume;3089.3329333328024
+Python;fannkuchredux;HALSTEAD__Difficulty;58.541666666666664
+Python;fannkuchredux;HALSTEAD__Level;0.01708185053380783
+Python;fannkuchredux;HALSTEAD__Effort;180854.69880552447
+Python;fannkuchredux;HALSTEAD__Programming time;10047.483266973582
+Python;fannkuchredux;HALSTEAD__Bugs;1.066019812671971
+Python;fannkuchredux;HALSTEAD__Estimated program length;591.4413179721021
+Python;fannkuchredux;HALSTEAD__Purity ratio;1.2774110539354255
+Python;fannkuchredux;MI__Original;46.07659224487226
+Python;fannkuchredux;MI__Sei;10.6412127949326
+Python;fannkuchredux;MI__Visual Studio;26.945375581796647
+Python;fasta;SLOC;138
+Python;fasta;PLOC;79
+Python;fasta;LLOC;68
+Python;fasta;CLOC;28
+Python;fasta;BLANK;31
+Python;fasta;CC;15.0
+Python;fasta;NARGS_SUM;6
+Python;fasta;NARGS_AVG;1.5
+Python;fasta;COGNITIVE_SUM;12
+Python;fasta;COGNITIVE_AVG;3
+Python;fasta;NEXITS;2
+Python;fasta;NEXITS_AVG;0.5
+Python;fasta;NOM__functions;4
+Python;fasta;NOM__closures;0
+Python;fasta;NOM__total;4
+Python;fasta;HALSTEAD__n1;18
+Python;fasta;HALSTEAD__n2;91
+Python;fasta;HALSTEAD__N1;140
+Python;fasta;HALSTEAD__N2;234
+Python;fasta;HALSTEAD__Vocabulary;109
+Python;fasta;HALSTEAD__Length;374
+Python;fasta;HALSTEAD__Volume;2531.3009374665703
+Python;fasta;HALSTEAD__Difficulty;23.142857142857142
+Python;fasta;HALSTEAD__Level;0.043209876543209874
+Python;fasta;HALSTEAD__Effort;58581.5359813692
+Python;fasta;HALSTEAD__Programming time;3254.5297767427332
+Python;fasta;HALSTEAD__Bugs;0.5027891705409683
+Python;fasta;HALSTEAD__Estimated program length;667.2679622840429
+Python;fasta;HALSTEAD__Purity ratio;1.7841389365883502
+Python;fasta;MI__Original;46.97874929915429
+Python;fasta;MI__Sei;25.729998103367933
+Python;fasta;MI__Visual Studio;27.472952806522976
+Python;knucleotide;SLOC;186
+Python;knucleotide;PLOC;156
+Python;knucleotide;LLOC;128
+Python;knucleotide;CLOC;4
+Python;knucleotide;BLANK;26
+Python;knucleotide;CC;59.0
+Python;knucleotide;NARGS_SUM;28
+Python;knucleotide;NARGS_AVG;2.1538
+Python;knucleotide;COGNITIVE_SUM;70
+Python;knucleotide;COGNITIVE_AVG;5.3846153
+Python;knucleotide;NEXITS;7
+Python;knucleotide;NEXITS_AVG;0.5384615384615384
+Python;knucleotide;NOM__functions;10
+Python;knucleotide;NOM__closures;3
+Python;knucleotide;NOM__total;13
+Python;knucleotide;HALSTEAD__n1;29
+Python;knucleotide;HALSTEAD__n2;139
+Python;knucleotide;HALSTEAD__N1;380
+Python;knucleotide;HALSTEAD__N2;588
+Python;knucleotide;HALSTEAD__Vocabulary;168
+Python;knucleotide;HALSTEAD__Length;968
+Python;knucleotide;HALSTEAD__Volume;7155.7632652498405
+Python;knucleotide;HALSTEAD__Difficulty;61.33812949640288
+Python;knucleotide;HALSTEAD__Level;0.01630307295331926
+Python;knucleotide;HALSTEAD__Effort;438921.1338094974
+Python;knucleotide;HALSTEAD__Programming time;24384.507433860967
+Python;knucleotide;HALSTEAD__Bugs;1.925172902533652
+Python;knucleotide;HALSTEAD__Estimated program length;1130.414257967267
+Python;knucleotide;HALSTEAD__Purity ratio;1.1677833243463502
+Python;knucleotide;MI__Original;26.619402402992506
+Python;knucleotide;MI__Sei;-20.028025772787338
+Python;knucleotide;MI__Visual Studio;15.566901990054097
+Python;mandelbrot;SLOC;74
+Python;mandelbrot;PLOC;59
+Python;mandelbrot;LLOC;53
+Python;mandelbrot;CLOC;4
+Python;mandelbrot;BLANK;11
+Python;mandelbrot;CC;22.0
+Python;mandelbrot;NARGS_SUM;9
+Python;mandelbrot;NARGS_AVG;1.8
+Python;mandelbrot;COGNITIVE_SUM;24
+Python;mandelbrot;COGNITIVE_AVG;4.8
+Python;mandelbrot;NEXITS;1
+Python;mandelbrot;NEXITS_AVG;0.2
+Python;mandelbrot;NOM__functions;5
+Python;mandelbrot;NOM__closures;0
+Python;mandelbrot;NOM__total;5
+Python;mandelbrot;HALSTEAD__n1;31
+Python;mandelbrot;HALSTEAD__n2;68
+Python;mandelbrot;HALSTEAD__N1;117
+Python;mandelbrot;HALSTEAD__N2;174
+Python;mandelbrot;HALSTEAD__Vocabulary;99
+Python;mandelbrot;HALSTEAD__Length;291
+Python;mandelbrot;HALSTEAD__Volume;1929.1427764431664
+Python;mandelbrot;HALSTEAD__Difficulty;39.661764705882355
+Python;mandelbrot;HALSTEAD__Level;0.02521319985168706
+Python;mandelbrot;HALSTEAD__Effort;76513.20688334147
+Python;mandelbrot;HALSTEAD__Programming time;4250.733715741193
+Python;mandelbrot;HALSTEAD__Bugs;0.600762775679386
+Python;mandelbrot;HALSTEAD__Estimated program length;567.5275588270163
+Python;mandelbrot;HALSTEAD__Purity ratio;1.95026652517875
+Python;mandelbrot;MI__Original;56.87702415516006
+Python;mandelbrot;MI__Sei;26.21752637598056
+Python;mandelbrot;MI__Visual Studio;33.261417634596526
+Python;nbody;SLOC;116
+Python;nbody;PLOC;89
+Python;nbody;LLOC;53
+Python;nbody;CLOC;7
+Python;nbody;BLANK;20
+Python;nbody;CC;15.0
+Python;nbody;NARGS_SUM;15
+Python;nbody;NARGS_AVG;3
+Python;nbody;COGNITIVE_SUM;12
+Python;nbody;COGNITIVE_AVG;2.4
+Python;nbody;NEXITS;1
+Python;nbody;NEXITS_AVG;0.2
+Python;nbody;NOM__functions;5
+Python;nbody;NOM__closures;0
+Python;nbody;NOM__total;5
+Python;nbody;HALSTEAD__n1;18
+Python;nbody;HALSTEAD__n2;104
+Python;nbody;HALSTEAD__N1;228
+Python;nbody;HALSTEAD__N2;295
+Python;nbody;HALSTEAD__Vocabulary;122
+Python;nbody;HALSTEAD__Length;523
+Python;nbody;HALSTEAD__Volume;3624.77562754539
+Python;nbody;HALSTEAD__Difficulty;25.528846153846153
+Python;nbody;HALSTEAD__Level;0.039171374764595104
+Python;nbody;HALSTEAD__Effort;92536.33933781741
+Python;nbody;HALSTEAD__Programming time;5140.907740989856
+Python;nbody;HALSTEAD__Bugs;0.6819517089673753
+Python;nbody;HALSTEAD__Estimated program length;771.9043807126351
+Python;nbody;HALSTEAD__Purity ratio;1.4759165979209083
+Python;nbody;MI__Original;47.92499102255418
+Python;nbody;MI__Sei;13.539717969646862
+Python;nbody;MI__Visual Studio;28.026310539505367
+Python;regexredux;SLOC;55
+Python;regexredux;PLOC;37
+Python;regexredux;LLOC;23
+Python;regexredux;CLOC;8
+Python;regexredux;BLANK;10
+Python;regexredux;CC;7.0
+Python;regexredux;NARGS_SUM;2
+Python;regexredux;NARGS_AVG;0.666666
+Python;regexredux;COGNITIVE_SUM;3
+Python;regexredux;COGNITIVE_AVG;1
+Python;regexredux;NEXITS;1
+Python;regexredux;NEXITS_AVG;0.3333333333333333
+Python;regexredux;NOM__functions;3
+Python;regexredux;NOM__closures;0
+Python;regexredux;NOM__total;3
+Python;regexredux;HALSTEAD__n1;12
+Python;regexredux;HALSTEAD__n2;53
+Python;regexredux;HALSTEAD__N1;55
+Python;regexredux;HALSTEAD__N2;93
+Python;regexredux;HALSTEAD__Vocabulary;65
+Python;regexredux;HALSTEAD__Length;148
+Python;regexredux;HALSTEAD__Volume;891.3104363282113
+Python;regexredux;HALSTEAD__Difficulty;10.528301886792454
+Python;regexredux;HALSTEAD__Level;0.09498207885304659
+Python;regexredux;HALSTEAD__Effort;9383.985348512111
+Python;regexredux;HALSTEAD__Programming time;521.332519361784
+Python;regexredux;HALSTEAD__Bugs;0.1482985686437413
+Python;regexredux;HALSTEAD__Estimated program length;346.5993341005034
+Python;regexredux;HALSTEAD__Purity ratio;2.341887392570969
+Python;regexredux;MI__Original;69.14919994231667
+Python;regexredux;MI__Sei;52.626000681014844
+Python;regexredux;MI__Visual Studio;40.43812862123782
+Python;revcomp;SLOC;74
+Python;revcomp;PLOC;61
+Python;revcomp;LLOC;62
+Python;revcomp;CLOC;4
+Python;revcomp;BLANK;9
+Python;revcomp;CC;25.0
+Python;revcomp;NARGS_SUM;8
+Python;revcomp;NARGS_AVG;2
+Python;revcomp;COGNITIVE_SUM;38
+Python;revcomp;COGNITIVE_AVG;9.5
+Python;revcomp;NEXITS;1
+Python;revcomp;NEXITS_AVG;0.25
+Python;revcomp;NOM__functions;4
+Python;revcomp;NOM__closures;0
+Python;revcomp;NOM__total;4
+Python;revcomp;HALSTEAD__n1;24
+Python;revcomp;HALSTEAD__n2;73
+Python;revcomp;HALSTEAD__N1;135
+Python;revcomp;HALSTEAD__N2;199
+Python;revcomp;HALSTEAD__Vocabulary;97
+Python;revcomp;HALSTEAD__Length;334
+Python;revcomp;HALSTEAD__Volume;2204.3708892905006
+Python;revcomp;HALSTEAD__Difficulty;32.71232876712329
+Python;revcomp;HALSTEAD__Level;0.030569514237855946
+Python;revcomp;HALSTEAD__Effort;72110.10525514679
+Python;revcomp;HALSTEAD__Programming time;4006.116958619266
+Python;revcomp;HALSTEAD__Bugs;0.5774878237182266
+Python;revcomp;HALSTEAD__Estimated program length;561.896292815549
+Python;revcomp;HALSTEAD__Purity ratio;1.6823242299866739
+Python;revcomp;MI__Original;55.4935188218906
+Python;revcomp;MI__Sei;24.527009670842695
+Python;revcomp;MI__Visual Studio;32.45235018824012
+Python;spectralnorm;SLOC;62
+Python;spectralnorm;PLOC;39
+Python;spectralnorm;LLOC;32
+Python;spectralnorm;CLOC;8
+Python;spectralnorm;BLANK;15
+Python;spectralnorm;CC;15.0
+Python;spectralnorm;NARGS_SUM;7
+Python;spectralnorm;NARGS_AVG;1
+Python;spectralnorm;COGNITIVE_SUM;5
+Python;spectralnorm;COGNITIVE_AVG;0.7142857
+Python;spectralnorm;NEXITS;6
+Python;spectralnorm;NEXITS_AVG;0.8571428571428571
+Python;spectralnorm;NOM__functions;7
+Python;spectralnorm;NOM__closures;0
+Python;spectralnorm;NOM__total;7
+Python;spectralnorm;HALSTEAD__n1;16
+Python;spectralnorm;HALSTEAD__n2;46
+Python;spectralnorm;HALSTEAD__N1;81
+Python;spectralnorm;HALSTEAD__N2;126
+Python;spectralnorm;HALSTEAD__Vocabulary;62
+Python;spectralnorm;HALSTEAD__Length;207
+Python;spectralnorm;HALSTEAD__Volume;1232.518636250083
+Python;spectralnorm;HALSTEAD__Difficulty;21.91304347826087
+Python;spectralnorm;HALSTEAD__Level;0.04563492063492063
+Python;spectralnorm;HALSTEAD__Effort;27008.234463914865
+Python;spectralnorm;HALSTEAD__Programming time;1500.4574702174925
+Python;spectralnorm;HALSTEAD__Bugs;0.3000609929289894
+Python;spectralnorm;HALSTEAD__Estimated program length;318.0838499786226
+Python;spectralnorm;HALSTEAD__Purity ratio;1.5366369564184665
+Python;spectralnorm;MI__Original;63.6829848245098
+Python;spectralnorm;MI__Sei;44.111884448118616
+Python;spectralnorm;MI__Visual Studio;37.241511593280585
+Rust;binarytrees;SLOC;75
+Rust;binarytrees;PLOC;56
+Rust;binarytrees;LLOC;31
+Rust;binarytrees;CLOC;7
+Rust;binarytrees;BLANK;12
+Rust;binarytrees;CC;12.0
+Rust;binarytrees;NARGS_SUM;14
+Rust;binarytrees;NARGS_AVG;2
+Rust;binarytrees;COGNITIVE_SUM;5
+Rust;binarytrees;COGNITIVE_AVG;0.71428571
+Rust;binarytrees;NEXITS;3
+Rust;binarytrees;NEXITS_AVG;0.42857142857142855
+Rust;binarytrees;NOM__functions;4
+Rust;binarytrees;NOM__closures;3
+Rust;binarytrees;NOM__total;7
+Rust;binarytrees;HALSTEAD__n1;22
+Rust;binarytrees;HALSTEAD__n2;43
+Rust;binarytrees;HALSTEAD__N1;193
+Rust;binarytrees;HALSTEAD__N2;140
+Rust;binarytrees;HALSTEAD__Vocabulary;65
+Rust;binarytrees;HALSTEAD__Length;333
+Rust;binarytrees;HALSTEAD__Volume;2005.4484817384753
+Rust;binarytrees;HALSTEAD__Difficulty;35.81395348837209
+Rust;binarytrees;HALSTEAD__Level;0.02792207792207792
+Rust;binarytrees;HALSTEAD__Effort;71823.03864830818
+Rust;binarytrees;HALSTEAD__Programming time;3990.168813794899
+Rust;binarytrees;HALSTEAD__Bugs;0.5759541722145377
+Rust;binarytrees;HALSTEAD__Estimated program length;331.4368800622107
+Rust;binarytrees;HALSTEAD__Purity ratio;0.9953059461327649
+Rust;binarytrees;MI__Original;58.75785297946959
+Rust;binarytrees;MI__Sei;33.08134287773029
+Rust;binarytrees;MI__Visual Studio;34.36131753185356
+Rust;fannkuchredux;SLOC;145
+Rust;fannkuchredux;PLOC;95
+Rust;fannkuchredux;LLOC;63
+Rust;fannkuchredux;CLOC;33
+Rust;fannkuchredux;BLANK;17
+Rust;fannkuchredux;CC;22.0
+Rust;fannkuchredux;NARGS_SUM;13
+Rust;fannkuchredux;NARGS_AVG;2.1666666
+Rust;fannkuchredux;COGNITIVE_SUM;38
+Rust;fannkuchredux;COGNITIVE_AVG;6.3333333
+Rust;fannkuchredux;NEXITS;2
+Rust;fannkuchredux;NEXITS_AVG;0.3333333333333333
+Rust;fannkuchredux;NOM__functions;2
+Rust;fannkuchredux;NOM__closures;4
+Rust;fannkuchredux;NOM__total;6
+Rust;fannkuchredux;HALSTEAD__n1;32
+Rust;fannkuchredux;HALSTEAD__n2;48
+Rust;fannkuchredux;HALSTEAD__N1;286
+Rust;fannkuchredux;HALSTEAD__N2;228
+Rust;fannkuchredux;HALSTEAD__Vocabulary;80
+Rust;fannkuchredux;HALSTEAD__Length;514
+Rust;fannkuchredux;HALSTEAD__Volume;3249.4710407721045
+Rust;fannkuchredux;HALSTEAD__Difficulty;76.0
+Rust;fannkuchredux;HALSTEAD__Level;0.013157894736842105
+Rust;fannkuchredux;HALSTEAD__Effort;246959.79909867994
+Rust;fannkuchredux;HALSTEAD__Programming time;13719.988838815552
+Rust;fannkuchredux;HALSTEAD__Bugs;1.3120878705738475
+Rust;fannkuchredux;HALSTEAD__Estimated program length;428.0782000346155
+Rust;fannkuchredux;HALSTEAD__Purity ratio;0.8328369650478901
+Rust;fannkuchredux;MI__Original;43.26842634474846
+Rust;fannkuchredux;MI__Sei;22.64193201844158
+Rust;fannkuchredux;MI__Visual Studio;25.30317330102249
+Rust;fasta;SLOC;221
+Rust;fasta;PLOC;183
+Rust;fasta;LLOC;84
+Rust;fasta;CLOC;6
+Rust;fasta;BLANK;32
+Rust;fasta;CC;38.0
+Rust;fasta;NARGS_SUM;38
+Rust;fasta;NARGS_AVG;2.375
+Rust;fasta;COGNITIVE_SUM;20
+Rust;fasta;COGNITIVE_AVG;1.25
+Rust;fasta;NEXITS;10
+Rust;fasta;NEXITS_AVG;0.625
+Rust;fasta;NOM__functions;11
+Rust;fasta;NOM__closures;5
+Rust;fasta;NOM__total;16
+Rust;fasta;HALSTEAD__n1;31
+Rust;fasta;HALSTEAD__n2;123
+Rust;fasta;HALSTEAD__N1;578
+Rust;fasta;HALSTEAD__N2;358
+Rust;fasta;HALSTEAD__Vocabulary;154
+Rust;fasta;HALSTEAD__Length;936
+Rust;fasta;HALSTEAD__Volume;6801.712202090427
+Rust;fasta;HALSTEAD__Difficulty;45.113821138211385
+Rust;fasta;HALSTEAD__Level;0.0221661560641557
+Rust;fasta;HALSTEAD__Effort;306851.2277186974
+Rust;fasta;HALSTEAD__Programming time;17047.290428816523
+Rust;fasta;HALSTEAD__Bugs;1.5164589389453085
+Rust;fasta;HALSTEAD__Estimated program length;1007.5093697787196
+Rust;fasta;HALSTEAD__Purity ratio;1.0763988993362388
+Rust;fasta;MI__Original;28.92013003516172
+Rust;fasta;MI__Sei;-17.483852860928224
+Rust;fasta;MI__Visual Studio;16.912356745708607
+Rust;knucleotide;SLOC;145
+Rust;knucleotide;PLOC;95
+Rust;knucleotide;LLOC;67
+Rust;knucleotide;CLOC;33
+Rust;knucleotide;BLANK;17
+Rust;knucleotide;CC;22.0
+Rust;knucleotide;NARGS_SUM;38
+Rust;knucleotide;NARGS_AVG;1.809523
+Rust;knucleotide;COGNITIVE_SUM;15
+Rust;knucleotide;COGNITIVE_AVG;0.71428
+Rust;knucleotide;NEXITS;11
+Rust;knucleotide;NEXITS_AVG;0.5238095238095238
+Rust;knucleotide;NOM__functions;2
+Rust;knucleotide;NOM__closures;4
+Rust;knucleotide;NOM__total;6
+Rust;knucleotide;HALSTEAD__n1;32
+Rust;knucleotide;HALSTEAD__n2;48
+Rust;knucleotide;HALSTEAD__N1;286
+Rust;knucleotide;HALSTEAD__N2;228
+Rust;knucleotide;HALSTEAD__Vocabulary;80
+Rust;knucleotide;HALSTEAD__Length;514
+Rust;knucleotide;HALSTEAD__Volume;3249.4710407721045
+Rust;knucleotide;HALSTEAD__Difficulty;76.0
+Rust;knucleotide;HALSTEAD__Level;0.013157894736842105
+Rust;knucleotide;HALSTEAD__Effort;246959.79909867994
+Rust;knucleotide;HALSTEAD__Programming time;13719.988838815552
+Rust;knucleotide;HALSTEAD__Bugs;1.3120878705738475
+Rust;knucleotide;HALSTEAD__Estimated program length;428.0782000346155
+Rust;knucleotide;HALSTEAD__Purity ratio;0.8328369650478901
+Rust;knucleotide;MI__Original;43.26842634474846
+Rust;knucleotide;MI__Sei;22.64193201844158
+Rust;knucleotide;MI__Visual Studio;25.30317330102249
+Rust;mandelbrot;SLOC;143
+Rust;mandelbrot;PLOC;119
+Rust;mandelbrot;LLOC;41
+Rust;mandelbrot;CLOC;6
+Rust;mandelbrot;BLANK;18
+Rust;mandelbrot;CC;28.0
+Rust;mandelbrot;NARGS_SUM;30
+Rust;mandelbrot;NARGS_AVG;2.1428571
+Rust;mandelbrot;COGNITIVE_SUM;10
+Rust;mandelbrot;COGNITIVE_AVG;0.71427
+Rust;mandelbrot;NEXITS;8
+Rust;mandelbrot;NEXITS_AVG;0.5714285714285714
+Rust;mandelbrot;NOM__functions;9
+Rust;mandelbrot;NOM__closures;5
+Rust;mandelbrot;NOM__total;14
+Rust;mandelbrot;HALSTEAD__n1;26
+Rust;mandelbrot;HALSTEAD__n2;76
+Rust;mandelbrot;HALSTEAD__N1;322
+Rust;mandelbrot;HALSTEAD__N2;228
+Rust;mandelbrot;HALSTEAD__Vocabulary;102
+Rust;mandelbrot;HALSTEAD__Length;550
+Rust;mandelbrot;HALSTEAD__Volume;3669.833938084322
+Rust;mandelbrot;HALSTEAD__Difficulty;39.0
+Rust;mandelbrot;HALSTEAD__Level;0.02564102564102564
+Rust;mandelbrot;HALSTEAD__Effort;143123.52358528855
+Rust;mandelbrot;HALSTEAD__Programming time;7951.306865849364
+Rust;mandelbrot;HALSTEAD__Bugs;0.9120516325555061
+Rust;mandelbrot;HALSTEAD__Estimated program length;597.0539236933809
+Rust;mandelbrot;HALSTEAD__Purity ratio;1.0855525885334196
+Rust;mandelbrot;MI__Original;41.48082819374778
+Rust;mandelbrot;MI__Sei;2.595911126556201
+Rust;mandelbrot;MI__Visual Studio;24.25779426534958
+Rust;nbody;SLOC;204
+Rust;nbody;PLOC;157
+Rust;nbody;LLOC;62
+Rust;nbody;CLOC;24
+Rust;nbody;BLANK;23
+Rust;nbody;CC;36.0
+Rust;nbody;NARGS_SUM;41
+Rust;nbody;NARGS_AVG;2.15789
+Rust;nbody;COGNITIVE_SUM;6
+Rust;nbody;COGNITIVE_AVG;0.31578947
+Rust;nbody;NEXITS;9
+Rust;nbody;NEXITS_AVG;0.47368421052631576
+Rust;nbody;NOM__functions;14
+Rust;nbody;NOM__closures;5
+Rust;nbody;NOM__total;19
+Rust;nbody;HALSTEAD__n1;26
+Rust;nbody;HALSTEAD__n2;100
+Rust;nbody;HALSTEAD__N1;573
+Rust;nbody;HALSTEAD__N2;353
+Rust;nbody;HALSTEAD__Vocabulary;126
+Rust;nbody;HALSTEAD__Length;926
+Rust;nbody;HALSTEAD__Volume;6460.961209160923
+Rust;nbody;HALSTEAD__Difficulty;45.89
+Rust;nbody;HALSTEAD__Level;0.021791239921551537
+Rust;nbody;HALSTEAD__Effort;296493.5098883948
+Rust;nbody;HALSTEAD__Programming time;16471.861660466377
+Rust;nbody;HALSTEAD__Bugs;1.4821387872186218
+Rust;nbody;HALSTEAD__Estimated program length;786.5970516491408
+Rust;nbody;HALSTEAD__Purity ratio;0.8494568592323335
+Rust;nbody;MI__Original;30.94408252530617
+Rust;nbody;MI__Sei;-2.0567631101561155
+Rust;nbody;MI__Visual Studio;18.095954693161502
+Rust;regexredux;SLOC;86
+Rust;regexredux;PLOC;54
+Rust;regexredux;LLOC;26
+Rust;regexredux;CLOC;19
+Rust;regexredux;BLANK;13
+Rust;regexredux;CC;10.0
+Rust;regexredux;NARGS_SUM;2
+Rust;regexredux;NARGS_AVG;0.66666
+Rust;regexredux;COGNITIVE_SUM;3
+Rust;regexredux;COGNITIVE_AVG;1
+Rust;regexredux;NEXITS;1
+Rust;regexredux;NEXITS_AVG;0.3333333333333333
+Rust;regexredux;NOM__functions;2
+Rust;regexredux;NOM__closures;1
+Rust;regexredux;NOM__total;3
+Rust;regexredux;HALSTEAD__n1;21
+Rust;regexredux;HALSTEAD__n2;70
+Rust;regexredux;HALSTEAD__N1;163
+Rust;regexredux;HALSTEAD__N2;136
+Rust;regexredux;HALSTEAD__Vocabulary;91
+Rust;regexredux;HALSTEAD__Length;299
+Rust;regexredux;HALSTEAD__Volume;1945.8305974194102
+Rust;regexredux;HALSTEAD__Difficulty;20.4
+Rust;regexredux;HALSTEAD__Level;0.04901960784313726
+Rust;regexredux;HALSTEAD__Effort;39694.94418735596
+Rust;regexredux;HALSTEAD__Programming time;2205.274677075331
+Rust;regexredux;HALSTEAD__Bugs;0.38788430677563934
+Rust;regexredux;HALSTEAD__Estimated program length;521.2884770645016
+Rust;regexredux;HALSTEAD__Purity ratio;1.7434397226237512
+Rust;regexredux;MI__Original;57.15766392288438
+Rust;regexredux;MI__Sei;41.053693253235366
+Rust;regexredux;MI__Visual Studio;33.425534457827126
+Rust;revcomp;SLOC;182
+Rust;revcomp;PLOC;127
+Rust;revcomp;LLOC;64
+Rust;revcomp;CLOC;38
+Rust;revcomp;BLANK;17
+Rust;revcomp;CC;45.0
+Rust;revcomp;NARGS_SUM;17
+Rust;revcomp;NARGS_AVG;1.7
+Rust;revcomp;COGNITIVE_SUM;18
+Rust;revcomp;COGNITIVE_AVG;1.8
+Rust;revcomp;NEXITS;4
+Rust;revcomp;NEXITS_AVG;0.4
+Rust;revcomp;NOM__functions;8
+Rust;revcomp;NOM__closures;2
+Rust;revcomp;NOM__total;10
+Rust;revcomp;HALSTEAD__n1;30
+Rust;revcomp;HALSTEAD__n2;96
+Rust;revcomp;HALSTEAD__N1;452
+Rust;revcomp;HALSTEAD__N2;307
+Rust;revcomp;HALSTEAD__Vocabulary;126
+Rust;revcomp;HALSTEAD__Length;759
+Rust;revcomp;HALSTEAD__Volume;5295.755461936436
+Rust;revcomp;HALSTEAD__Difficulty;47.96875
+Rust;revcomp;HALSTEAD__Level;0.020846905537459284
+Rust;revcomp;HALSTEAD__Effort;254030.76981476342
+Rust;revcomp;HALSTEAD__Programming time;14112.820545264634
+Rust;revcomp;HALSTEAD__Bugs;1.3370150466930253
+Rust;revcomp;HALSTEAD__Estimated program length;779.3631179374865
+Rust;revcomp;HALSTEAD__Purity ratio;1.0268288773879928
+Rust;revcomp;MI__Original;31.75685487264124
+Rust;revcomp;MI__Sei;7.207856703514615
+Rust;revcomp;MI__Visual Studio;18.571260159439323
+Rust;spectralnorm;SLOC;93
+Rust;spectralnorm;PLOC;60
+Rust;spectralnorm;LLOC;27
+Rust;spectralnorm;CLOC;19
+Rust;spectralnorm;BLANK;14
+Rust;spectralnorm;CC;15.0
+Rust;spectralnorm;NARGS_SUM;33
+Rust;spectralnorm;NARGS_AVG;2.75
+Rust;spectralnorm;COGNITIVE_SUM;3
+Rust;spectralnorm;COGNITIVE_AVG;0.25
+Rust;spectralnorm;NEXITS;3
+Rust;spectralnorm;NEXITS_AVG;0.25
+Rust;spectralnorm;NOM__functions;7
+Rust;spectralnorm;NOM__closures;5
+Rust;spectralnorm;NOM__total;12
+Rust;spectralnorm;HALSTEAD__n1;21
+Rust;spectralnorm;HALSTEAD__n2;49
+Rust;spectralnorm;HALSTEAD__N1;348
+Rust;spectralnorm;HALSTEAD__N2;241
+Rust;spectralnorm;HALSTEAD__Vocabulary;70
+Rust;spectralnorm;HALSTEAD__Length;589
+Rust;spectralnorm;HALSTEAD__Volume;3610.1476969805854
+Rust;spectralnorm;HALSTEAD__Difficulty;51.642857142857146
+Rust;spectralnorm;HALSTEAD__Level;0.01936376210235131
+Rust;spectralnorm;HALSTEAD__Effort;186438.3417797831
+Rust;spectralnorm;HALSTEAD__Programming time;10357.685654432395
+Rust;spectralnorm;HALSTEAD__Bugs;1.0878497084026046
+Rust;spectralnorm;HALSTEAD__Estimated program length;367.35944823999915
+Rust;spectralnorm;HALSTEAD__Purity ratio;0.6237002516808136
+Rust;spectralnorm;MI__Original;51.52606759925594
+Rust;spectralnorm;MI__Sei;32.382541704237
+Rust;spectralnorm;MI__Visual Studio;30.13220327441868
+TypeScript;binarytrees;SLOC;58
+TypeScript;binarytrees;PLOC;41
+TypeScript;binarytrees;LLOC;24
+TypeScript;binarytrees;CLOC;7
+TypeScript;binarytrees;BLANK;10
+TypeScript;binarytrees;CC;9.0
+TypeScript;binarytrees;NARGS_SUM;3
+TypeScript;binarytrees;NARGS_AVG;1
+TypeScript;binarytrees;COGNITIVE_SUM;7
+TypeScript;binarytrees;COGNITIVE_AVG;2.3333
+TypeScript;binarytrees;NEXITS;4
+TypeScript;binarytrees;NEXITS_AVG;1.3333333333333333
+TypeScript;binarytrees;NOM__functions;3
+TypeScript;binarytrees;NOM__closures;0
+TypeScript;binarytrees;NOM__total;3
+TypeScript;binarytrees;HALSTEAD__n1;21
+TypeScript;binarytrees;HALSTEAD__n2;26
+TypeScript;binarytrees;HALSTEAD__N1;115
+TypeScript;binarytrees;HALSTEAD__N2;77
+TypeScript;binarytrees;HALSTEAD__Vocabulary;47
+TypeScript;binarytrees;HALSTEAD__Length;192
+TypeScript;binarytrees;HALSTEAD__Volume;1066.4810595221065
+TypeScript;binarytrees;HALSTEAD__Difficulty;31.096153846153847
+TypeScript;binarytrees;HALSTEAD__Level;0.032158317872603585
+TypeScript;binarytrees;HALSTEAD__Effort;33163.459100908585
+TypeScript;binarytrees;HALSTEAD__Programming time;1842.4143944949215
+TypeScript;binarytrees;HALSTEAD__Bugs;0.3440740826917404
+TypeScript;binarytrees;HALSTEAD__Estimated program length;214.45009855002235
+TypeScript;binarytrees;HALSTEAD__Purity ratio;1.1169275966146996
+TypeScript;binarytrees;MI__Original;66.89580038208805
+TypeScript;binarytrees;MI__Sei;47.35516817393005
+TypeScript;binarytrees;MI__Visual Studio;39.12035110063629
+TypeScript;fannkuchredux;SLOC;64
+TypeScript;fannkuchredux;PLOC;46
+TypeScript;fannkuchredux;LLOC;58
+TypeScript;fannkuchredux;CLOC;7
+TypeScript;fannkuchredux;BLANK;11
+TypeScript;fannkuchredux;CC;14.0
+TypeScript;fannkuchredux;NARGS_SUM;1
+TypeScript;fannkuchredux;NARGS_AVG;1
+TypeScript;fannkuchredux;COGNITIVE_SUM;28
+TypeScript;fannkuchredux;COGNITIVE_AVG;28
+TypeScript;fannkuchredux;NEXITS;2
+TypeScript;fannkuchredux;NEXITS_AVG;2.0
+TypeScript;fannkuchredux;NOM__functions;1
+TypeScript;fannkuchredux;NOM__closures;0
+TypeScript;fannkuchredux;NOM__total;1
+TypeScript;fannkuchredux;HALSTEAD__n1;26
+TypeScript;fannkuchredux;HALSTEAD__n2;27
+TypeScript;fannkuchredux;HALSTEAD__N1;156
+TypeScript;fannkuchredux;HALSTEAD__N2;146
+TypeScript;fannkuchredux;HALSTEAD__Vocabulary;53
+TypeScript;fannkuchredux;HALSTEAD__Length;302
+TypeScript;fannkuchredux;HALSTEAD__Volume;1729.831977278086
+TypeScript;fannkuchredux;HALSTEAD__Difficulty;70.29629629629629
+TypeScript;fannkuchredux;HALSTEAD__Level;0.014225500526870391
+TypeScript;fannkuchredux;HALSTEAD__Effort;121600.78121754841
+TypeScript;fannkuchredux;HALSTEAD__Programming time;6755.598956530467
+TypeScript;fannkuchredux;HALSTEAD__Bugs;0.8181563811397001
+TypeScript;fannkuchredux;HALSTEAD__Estimated program length;250.59339523008202
+TypeScript;fannkuchredux;HALSTEAD__Purity ratio;0.8297794544042452
+TypeScript;fannkuchredux;MI__Original;61.63604033853822
+TypeScript;fannkuchredux;MI__Sei;39.15787082613978
+TypeScript;fannkuchredux;MI__Visual Studio;36.04446803423288
+TypeScript;fasta;SLOC;128
+TypeScript;fasta;PLOC;105
+TypeScript;fasta;LLOC;65
+TypeScript;fasta;CLOC;8
+TypeScript;fasta;BLANK;15
+TypeScript;fasta;CC;23.0
+TypeScript;fasta;NARGS_SUM;8
+TypeScript;fasta;NARGS_AVG;1.3333333
+TypeScript;fasta;COGNITIVE_SUM;28
+TypeScript;fasta;COGNITIVE_AVG;4.66666667
+TypeScript;fasta;NEXITS;1
+TypeScript;fasta;NEXITS_AVG;0.16666666666666666
+TypeScript;fasta;NOM__functions;6
+TypeScript;fasta;NOM__closures;0
+TypeScript;fasta;NOM__total;6
+TypeScript;fasta;HALSTEAD__n1;27
+TypeScript;fasta;HALSTEAD__n2;82
+TypeScript;fasta;HALSTEAD__N1;482
+TypeScript;fasta;HALSTEAD__N2;302
+TypeScript;fasta;HALSTEAD__Vocabulary;109
+TypeScript;fasta;HALSTEAD__Length;784
+TypeScript;fasta;HALSTEAD__Volume;5306.25651062511
+TypeScript;fasta;HALSTEAD__Difficulty;49.71951219512195
+TypeScript;fasta;HALSTEAD__Level;0.020112828059847928
+TypeScript;fasta;HALSTEAD__Effort;263824.4852904704
+TypeScript;fasta;HALSTEAD__Programming time;14656.915849470579
+TypeScript;fasta;HALSTEAD__Bugs;1.3711621351267889
+TypeScript;fasta;HALSTEAD__Estimated program length;649.7012269370965
+TypeScript;fasta;HALSTEAD__Purity ratio;0.8287005445626231
+TypeScript;fasta;MI__Original;42.508571963936674
+TypeScript;fasta;MI__Sei;6.852322535981969
+TypeScript;fasta;MI__Visual Studio;24.858814013998057
+TypeScript;knucleotide;SLOC;78
+TypeScript;knucleotide;PLOC;63
+TypeScript;knucleotide;LLOC;42
+TypeScript;knucleotide;CLOC;6
+TypeScript;knucleotide;BLANK;9
+TypeScript;knucleotide;CC;17.0
+TypeScript;knucleotide;NARGS_SUM;9
+TypeScript;knucleotide;NARGS_AVG;1
+TypeScript;knucleotide;COGNITIVE_SUM;12
+TypeScript;knucleotide;COGNITIVE_AVG;1.3333333
+TypeScript;knucleotide;NEXITS;1
+TypeScript;knucleotide;NEXITS_AVG;0.1111111111111111
+TypeScript;knucleotide;NOM__functions;5
+TypeScript;knucleotide;NOM__closures;4
+TypeScript;knucleotide;NOM__total;9
+TypeScript;knucleotide;HALSTEAD__n1;28
+TypeScript;knucleotide;HALSTEAD__n2;51
+TypeScript;knucleotide;HALSTEAD__N1;200
+TypeScript;knucleotide;HALSTEAD__N2;140
+TypeScript;knucleotide;HALSTEAD__Vocabulary;79
+TypeScript;knucleotide;HALSTEAD__Length;340
+TypeScript;knucleotide;HALSTEAD__Volume;2143.285454380215
+TypeScript;knucleotide;HALSTEAD__Difficulty;38.431372549019606
+TypeScript;knucleotide;HALSTEAD__Level;0.026020408163265306
+TypeScript;knucleotide;HALSTEAD__Effort;82369.4017761808
+TypeScript;knucleotide;HALSTEAD__Programming time;4576.077876454489
+TypeScript;knucleotide;HALSTEAD__Bugs;0.6310387372075408
+TypeScript;knucleotide;HALSTEAD__Estimated program length;423.89963025815916
+TypeScript;knucleotide;HALSTEAD__Purity ratio;1.2467636184063504
+TypeScript;knucleotide;MI__Original;56.626822020841715
+TypeScript;knucleotide;MI__Sei;28.553813090055428
+TypeScript;knucleotide;MI__Visual Studio;33.11510059698346
+TypeScript;mandelbrot;SLOC;49
+TypeScript;mandelbrot;PLOC;32
+TypeScript;mandelbrot;LLOC;36
+TypeScript;mandelbrot;CLOC;7
+TypeScript;mandelbrot;BLANK;10
+TypeScript;mandelbrot;CC;8.0
+TypeScript;mandelbrot;NARGS_SUM;0
+TypeScript;mandelbrot;NARGS_AVG;0
+TypeScript;mandelbrot;COGNITIVE_SUM;14
+TypeScript;mandelbrot;COGNITIVE_AVG;14
+TypeScript;mandelbrot;NEXITS;0
+TypeScript;mandelbrot;NEXITS_AVG;0
+TypeScript;mandelbrot;NOM__functions;0
+TypeScript;mandelbrot;NOM__closures;0
+TypeScript;mandelbrot;NOM__total;0
+TypeScript;mandelbrot;HALSTEAD__n1;23
+TypeScript;mandelbrot;HALSTEAD__n2;31
+TypeScript;mandelbrot;HALSTEAD__N1;118
+TypeScript;mandelbrot;HALSTEAD__N2;113
+TypeScript;mandelbrot;HALSTEAD__Vocabulary;54
+TypeScript;mandelbrot;HALSTEAD__Length;231
+TypeScript;mandelbrot;HALSTEAD__Volume;1329.3790129997612
+TypeScript;mandelbrot;HALSTEAD__Difficulty;41.91935483870968
+TypeScript;mandelbrot;HALSTEAD__Level;0.023855328972681798
+TypeScript;mandelbrot;HALSTEAD__Effort;55726.71056107064
+TypeScript;mandelbrot;HALSTEAD__Programming time;3095.9283645039245
+TypeScript;mandelbrot;HALSTEAD__Bugs;0.48631875375637595
+TypeScript;mandelbrot;HALSTEAD__Estimated program length;257.6220106113044
+TypeScript;mandelbrot;HALSTEAD__Purity ratio;1.1152467991831359
+TypeScript;mandelbrot;MI__Original;68.71168170636773
+TypeScript;mandelbrot;MI__Sei;51.8761864722328
+TypeScript;mandelbrot;MI__Visual Studio;40.182270003723815
+TypeScript;nbody;SLOC;183
+TypeScript;nbody;PLOC;148
+TypeScript;nbody;LLOC;69
+TypeScript;nbody;CLOC;7
+TypeScript;nbody;BLANK;28
+TypeScript;nbody;CC;20.0
+TypeScript;nbody;NARGS_SUM;11
+TypeScript;nbody;NARGS_AVG;1.1
+TypeScript;nbody;COGNITIVE_SUM;9
+TypeScript;nbody;COGNITIVE_AVG;0.9
+TypeScript;nbody;NEXITS;7
+TypeScript;nbody;NEXITS_AVG;0.7
+TypeScript;nbody;NOM__functions;10
+TypeScript;nbody;NOM__closures;0
+TypeScript;nbody;NOM__total;10
+TypeScript;nbody;HALSTEAD__n1;19
+TypeScript;nbody;HALSTEAD__n2;70
+TypeScript;nbody;HALSTEAD__N1;479
+TypeScript;nbody;HALSTEAD__N2;303
+TypeScript;nbody;HALSTEAD__Vocabulary;89
+TypeScript;nbody;HALSTEAD__Length;782
+TypeScript;nbody;HALSTEAD__Volume;5064.023543015723
+TypeScript;nbody;HALSTEAD__Difficulty;41.121428571428574
+TypeScript;nbody;HALSTEAD__Level;0.02431822129581379
+TypeScript;nbody;HALSTEAD__Effort;208239.8824081537
+TypeScript;nbody;HALSTEAD__Programming time;11568.882356008538
+TypeScript;nbody;HALSTEAD__Bugs;1.171083922000504
+TypeScript;nbody;HALSTEAD__Estimated program length;509.76043394157574
+TypeScript;nbody;HALSTEAD__Purity ratio;0.6518675625851352
+TypeScript;nbody;MI__Original;37.6507579368477
+TypeScript;nbody;MI__Sei;-4.42709950213461
+TypeScript;nbody;MI__Visual Studio;22.01798709757175
+TypeScript;regexredux;SLOC;50
+TypeScript;regexredux;PLOC;33
+TypeScript;regexredux;LLOC;16
+TypeScript;regexredux;CLOC;7
+TypeScript;regexredux;BLANK;10
+TypeScript;regexredux;CC;8.0
+TypeScript;regexredux;NARGS_SUM;4
+TypeScript;regexredux;NARGS_AVG;1
+TypeScript;regexredux;COGNITIVE_SUM;6
+TypeScript;regexredux;COGNITIVE_AVG;1.5
+TypeScript;regexredux;NEXITS;0
+TypeScript;regexredux;NEXITS_AVG;0
+TypeScript;regexredux;NOM__functions;1
+TypeScript;regexredux;NOM__closures;3
+TypeScript;regexredux;NOM__total;4
+TypeScript;regexredux;HALSTEAD__n1;19
+TypeScript;regexredux;HALSTEAD__n2;31
+TypeScript;regexredux;HALSTEAD__N1;172
+TypeScript;regexredux;HALSTEAD__N2;75
+TypeScript;regexredux;HALSTEAD__Vocabulary;50
+TypeScript;regexredux;HALSTEAD__Length;247
+TypeScript;regexredux;HALSTEAD__Volume;1394.032478874357
+TypeScript;regexredux;HALSTEAD__Difficulty;22.983870967741936
+TypeScript;regexredux;HALSTEAD__Level;0.04350877192982456
+TypeScript;regexredux;HALSTEAD__Effort;32040.262619289657
+TypeScript;regexredux;HALSTEAD__Programming time;1780.0145899605366
+TypeScript;regexredux;HALSTEAD__Bugs;0.33626070824891074
+TypeScript;regexredux;HALSTEAD__Estimated program length;234.29070837742125
+TypeScript;regexredux;HALSTEAD__Purity ratio;0.9485453780462398
+TypeScript;regexredux;MI__Original;68.13745668355399
+TypeScript;regexredux;MI__Sei;50.802046889732566
+TypeScript;regexredux;MI__Visual Studio;39.8464658968152
+TypeScript;revcomp;SLOC;187
+TypeScript;revcomp;PLOC;154
+TypeScript;revcomp;LLOC;110
+TypeScript;revcomp;CLOC;19
+TypeScript;revcomp;BLANK;14
+TypeScript;revcomp;CC;25.0
+TypeScript;revcomp;NARGS_SUM;3
+TypeScript;revcomp;NARGS_AVG;0.75
+TypeScript;revcomp;COGNITIVE_SUM;40
+TypeScript;revcomp;COGNITIVE_AVG;10
+TypeScript;revcomp;NEXITS;2
+TypeScript;revcomp;NEXITS_AVG;0.5
+TypeScript;revcomp;NOM__functions;4
+TypeScript;revcomp;NOM__closures;0
+TypeScript;revcomp;NOM__total;4
+TypeScript;revcomp;HALSTEAD__n1;31
+TypeScript;revcomp;HALSTEAD__n2;69
+TypeScript;revcomp;HALSTEAD__N1;453
+TypeScript;revcomp;HALSTEAD__N2;289
+TypeScript;revcomp;HALSTEAD__Vocabulary;100
+TypeScript;revcomp;HALSTEAD__Length;742
+TypeScript;revcomp;HALSTEAD__Volume;4929.741292812845
+TypeScript;revcomp;HALSTEAD__Difficulty;64.92028985507247
+TypeScript;revcomp;HALSTEAD__Level;0.015403504855452617
+TypeScript;revcomp;HALSTEAD__Effort;320040.23363992956
+TypeScript;revcomp;HALSTEAD__Programming time;17780.012979996085
+TypeScript;revcomp;HALSTEAD__Bugs;1.5596068397265666
+TypeScript;revcomp;HALSTEAD__Estimated program length;575.0682731396869
+TypeScript;revcomp;HALSTEAD__Purity ratio;0.7750246268728934
+TypeScript;revcomp;MI__Original;36.29022310125957
+TypeScript;revcomp;MI__Sei;2.8996639994044955
+TypeScript;revcomp;MI__Visual Studio;21.22235269079507
+TypeScript;spectralnorm;SLOC;55
+TypeScript;spectralnorm;PLOC;41
+TypeScript;spectralnorm;LLOC;40
+TypeScript;spectralnorm;CLOC;5
+TypeScript;spectralnorm;BLANK;9
+TypeScript;spectralnorm;CC;13.0
+TypeScript;spectralnorm;NARGS_SUM;12
+TypeScript;spectralnorm;NARGS_AVG;2.4
+TypeScript;spectralnorm;COGNITIVE_SUM;9
+TypeScript;spectralnorm;COGNITIVE_AVG;1.8
+TypeScript;spectralnorm;NEXITS;2
+TypeScript;spectralnorm;NEXITS_AVG;0.4
+TypeScript;spectralnorm;NOM__functions;5
+TypeScript;spectralnorm;NOM__closures;0
+TypeScript;spectralnorm;NOM__total;5
+TypeScript;spectralnorm;HALSTEAD__n1;18
+TypeScript;spectralnorm;HALSTEAD__n2;26
+TypeScript;spectralnorm;HALSTEAD__N1;166
+TypeScript;spectralnorm;HALSTEAD__N2;135
+TypeScript;spectralnorm;HALSTEAD__Vocabulary;44
+TypeScript;spectralnorm;HALSTEAD__Length;301
+TypeScript;spectralnorm;HALSTEAD__Volume;1643.2889172098264
+TypeScript;spectralnorm;HALSTEAD__Difficulty;46.73076923076923
+TypeScript;spectralnorm;HALSTEAD__Level;0.02139917695473251
+TypeScript;spectralnorm;HALSTEAD__Effort;76792.15516961305
+TypeScript;spectralnorm;HALSTEAD__Programming time;4266.23084275628
+TypeScript;spectralnorm;HALSTEAD__Bugs;0.6022220451854204
+TypeScript;spectralnorm;HALSTEAD__Estimated program length;197.27008269763002
+TypeScript;spectralnorm;HALSTEAD__Purity ratio;0.6553823345436213
+TypeScript;spectralnorm;MI__Original;64.58803665956509
+TypeScript;spectralnorm;MI__Sei;41.31855991679847
+TypeScript;spectralnorm;MI__Visual Studio;37.77078167226029
+C++;binarytrees;CC_AVG;1.46
+C++;fannkuchredux;CC_AVG;4
+C++;fasta;CC_AVG;1.81
+C++;knucleotide;CC_AVG;1.9333333333333333
+C++;mandelbrot;CC_AVG;4.714285714285714
+C++;nbody;CC_AVG;2.888888888888889
+C++;regexredux;CC_AVG;3
+C++;revcomp;CC_AVG;1.8918918918918919
+C++;spectralnorm;CC_AVG;2.4444444444444446
+C;binarytrees;CC_AVG;2
+C;fannkuchredux;CC_AVG;11
+C;fasta;CC_AVG;3.5
+C;knucleotide;CC_AVG;4.5
+C;mandelbrot;CC_AVG;4.875
+C;nbody;CC_AVG;2.54
+C;regexredux;CC_AVG;3
+C;revcomp;CC_AVG;5.666666666666667
+C;spectralnorm;CC_AVG;1.8666666666666667
+JavaScript;binarytrees;CC_AVG;2
+JavaScript;fannkuchredux;CC_AVG;8
+JavaScript;fasta;CC_AVG;1.5909090909090908
+JavaScript;knucleotide;CC_AVG;2.1538461538461537
+JavaScript;mandelbrot;CC_AVG;4.25
+JavaScript;nbody;CC_AVG;1.6363636363636365
+JavaScript;regexredux;CC_AVG;4
+JavaScript;revcomp;CC_AVG;4.8
+JavaScript;spectralnorm;CC_AVG;2.1666666666666665
+Python;binarytrees;CC_AVG;2.6666666666666665
+Python;fannkuchredux;CC_AVG;6.6
+Python;fasta;CC_AVG;3
+Python;knucleotide;CC_AVG;4.916666666666667
+Python;mandelbrot;CC_AVG;3.6666666666666665
+Python;nbody;CC_AVG;2.5
+Python;regexredux;CC_AVG;1.75
+Python;revcomp;CC_AVG;5
+Python;spectralnorm;CC_AVG;1.875
+Rust;binarytrees;CC_AVG;1.5
+Rust;fannkuchredux;CC_AVG;3.142857142857143
+Rust;fasta;CC_AVG;2
+Rust;knucleotide;CC_AVG;2.107142857142857
+Rust;mandelbrot;CC_AVG;1.4736842105263157
+Rust;nbody;CC_AVG;0.3157894736842105
+Rust;regexredux;CC_AVG;2.5
+Rust;revcomp;CC_AVG;3.4615384615384617
+Rust;spectralnorm;CC_AVG;1.1538461538461537
+TypeScript;binarytrees;CC_AVG;1.8
+TypeScript;fannkuchredux;CC_AVG;7
+TypeScript;fasta;CC_AVG;2.875
+TypeScript;knucleotide;CC_AVG;1.54
+TypeScript;mandelbrot;CC_AVG;8
+TypeScript;nbody;CC_AVG;1.5384615384615385
+TypeScript;regexredux;CC_AVG;1.6
+TypeScript;revcomp;CC_AVG;4.166666666666667
+TypeScript;spectralnorm;CC_AVG;2.1666666666666665

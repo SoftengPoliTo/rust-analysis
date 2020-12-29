@@ -1,0 +1,614 @@
+---
+title: "rust_analysis"
+author: "Riccardo Coppola"
+date: "27/10/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=TRUE}
+
+
+
+r = getOption("repos")
+r["CRAN"] = "http://cran.us.r-project.org"
+options(repos = r)
+
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)    # alternatively, this also loads %>%
+library(ggplot2)
+library(lmPerm)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars, fig.width=8, fig.height=5} 
+
+
+data <- read.csv("results_rca.csv", header = TRUE, sep = ";")
+
+rq1_data = data %>% filter(Metric == "SLOC" | Metric == "LLOC" | Metric == "CLOC" | Metric == "PLOC" | Metric == "BLANK") 
+
+
+rq1_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(mean(., na.rm=TRUE)))
+
+
+ggplot(data=rq1_data, aes(x=factor(Metric, levels = c("SLOC", "PLOC", "LLOC", "CLOC", "BLANK")), y=Value, fill=factor(Lang, levels = c("C", "C++", "Rust", "Python", "JavaScript", "TypeScript")))) +
+  geom_boxplot()  + xlab("Metric") + ylab("Measure") + guides(fill=guide_legend(title="Language")) + scale_fill_brewer(palette="Set2") 
+
+
+
+rq1_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(median(., na.rm=TRUE)))
+
+
+#ggplot(data=rq1_data, aes(x=Lang, y=Value, fill=factor(Metric))) +
+#  geom_boxplot() 
+
+
+
+rq2_data = data %>% filter(Metric == "NOM__total" | Metric == "NARGS_SUM" | Metric == "NARGS_AVG" |  Metric == "NEXITS" | Metric == "NEXITS_AVG" ) 
+
+ggplot(data=rq2_data, aes(x=factor(Metric, levels = c("NOM__total", "NARGS_SUM", "NARGS_AVG", "NEXITS", "NEXITS_AVG")), y=Value, fill=factor(Lang, levels = c("C", "C++", "Rust", "Python", "JavaScript", "TypeScript")))) + guides(fill=guide_legend(title="Language")) + scale_fill_brewer(palette="Set2") +
+  geom_boxplot() + xlab("Metric") + ylab("Measure") + scale_x_discrete(labels=c("NOM", "NARGS (Sum)", "NARGS (Avg)", "NEXITS (Sum)", "NEXITS(Avg)"))
+
+rq2_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(mean(., na.rm=TRUE)))
+
+rq2_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(median(., na.rm=TRUE)))
+
+``` 
+
+
+```{r 2, fig.width=8, fig.height=5} 
+
+
+rq3_data = data %>% filter(Metric == "CC"  | Metric == "CC_AVG" | Metric == "COGNITIVE_SUM" | Metric == "COGNITIVE_AVG") 
+
+ggplot(data=rq3_data, aes(x=factor(Metric, levels = c("CC", "CC_AVG", "COGNITIVE_SUM", "COGNITIVE_AVG")), y=Value, fill=factor(Lang, levels = c("C", "C++", "Rust", "Python", "JavaScript", "TypeScript")))) + guides(fill=guide_legend(title="Language")) + scale_fill_brewer(palette="Set2") + xlab("Metric") + ylab("Measure") + scale_x_discrete(labels=c("CC (Sum)", "CC (Avg)", "COGNITIVE (Sum)", "COGNITIVE (Avg)")) +  geom_boxplot() 
+
+rq3_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(mean(., na.rm=TRUE)))
+
+rq3_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(median(., na.rm=TRUE)))
+
+
+```
+
+
+
+
+```{r 3, fig.width=7, fig.height=7} 
+
+
+
+rq3_halstead_data = data %>% filter(Metric == "HALSTEAD__Length" | Metric == "HALSTEAD__Volume" | Metric == "HALSTEAD__Difficulty" | Metric == "HALSTEAD__Programming time" | Metric == "HALSTEAD__Effort" | Metric == "HALSTEAD__Bugs") 
+
+rq3_halstead_data2 = data %>% filter(Metric == "HALSTEAD__Programming time" | Metric == "HALSTEAD__Effort" | Metric == "HALSTEAD__Volume") 
+
+
+
+
+halstead_names <- list(
+  'HALSTEAD__Length'="Length",
+  'HALSTEAD__Vocabulary'="Vocabulary",
+  'HALSTEAD__Difficulty'="Difficulty",
+  'HALSTEAD__Programming time'="Time",
+  'HALSTEAD__Effort'="Effort",
+  'HALSTEAD__Volume'="Volume",
+  "HALSTEAD__Bugs"="Bugs"
+)
+
+halstead_labeller <- function(variable,value){
+  return(halstead_names[value])
+}
+
+
+ggplot(data=rq3_halstead_data, aes(x=factor(Lang, levels = c("C", "C++", "Rust", "Python", "JavaScript", "TypeScript")), y=Value, fill=factor(Lang))) + guides(fill=guide_legend(title="Language")) + scale_fill_brewer(palette="Set2") + facet_grid(vars(Metric), scales = "free", labeller=halstead_labeller) +
+  geom_boxplot()  + xlab("Metric") + ylab("Measure")
+
+
+rq3_halstead_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(mean(., na.rm=TRUE)))
+
+rq3_halstead_data %>%
+  group_by(Metric, Lang) %>%
+  summarise_at(vars(Value), funs(median(., na.rm=TRUE)))
+
+
+
+
+```
+
+
+
+
+
+```{r  4, fig.width=6, fig.height=4} 
+
+
+rq4_mi = data %>% filter(Metric == "MI__Original" | Metric == "MI__Sei" | Metric == "MI__Visual Studio") 
+
+mi_names <- list(
+  'MI__Original'="Original",
+  'MI__Sei'="SEI",
+  'MI__Visual Studio'="Visual Studio"
+)
+
+mi_labeller <- function(variable,value){
+  return(mi_names[value])
+}
+
+
+
+ggplot(data=rq4_mi, aes(x=factor(Lang, levels = c("C", "C++", "Rust", "Python", "JavaScript", "TypeScript")), y=Value, fill=factor(Lang))) + guides(fill=guide_legend(title="Language")) + scale_fill_brewer(palette="Set2") + facet_grid(vars(Metric), scales = "free", labeller=mi_labeller) +
+  geom_boxplot()  + xlab("Metric") + ylab("Measure")
+
+
+```
+
+## Including Plots
+
+Analysis for SLOC:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r pressure, echo=FALSE}
+
+
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="SLOC"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="SLOC"))$Value, (data %>% filter(Metric=="SLOC"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+```
+
+Analysis for PLOC:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r PLOC, echo=FALSE}
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="PLOC"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="PLOC"))$Value, (data %>% filter(Metric=="PLOC"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for LLOC:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r LLOC, echo=FALSE}
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="LLOC"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="LLOC"))$Value, (data %>% filter(Metric=="LLOC"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+```
+
+Analysis for CLOC:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r CLOC, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="CLOC"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="CLOC"))$Value, (data %>% filter(Metric=="CLOC"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+```
+
+Analysis for BLANK:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r BLANK, echo=FALSE}
+
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="BLANK"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="BLANK"))$Value, (data %>% filter(Metric=="BLANK"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+
+```
+
+Analysis for cc:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+
+```{r CC, echo=FALSE}
+
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="CC"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="CC"))$Value, (data %>% filter(Metric=="CC"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for CC_AVG:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r CC_AVG, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="CC_AVG"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="CC_AVG"))$Value, (data %>% filter(Metric=="CC_AVG"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for nom:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r NOM__total, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="NOM__total"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="NOM__total"))$Value, (data %>% filter(Metric=="NOM__total"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for NARGS_SUM:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r NARGS_SUM, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="NARGS_SUM"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="NARGS_SUM"))$Value, (data %>% filter(Metric=="NARGS_SUM"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for NARGS_AVG:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r NARGS_AVG, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="NARGS_AVG"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="NARGS_AVG"))$Value, (data %>% filter(Metric=="NARGS_AVG"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for NEXITS:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r NEXITS, echo=FALSE}
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="NEXITS"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="NEXITS"))$Value, (data %>% filter(Metric=="NEXITS"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+```
+
+Analysis for NEXITS_AVG:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r NEXITS_AVG, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="NEXITS_AVG"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="NEXITS_AVG"))$Value, (data %>% filter(Metric=="NEXITS_AVG"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for COGNITIVE_SUM:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r COGNITIVE_SUM, echo=FALSE}
+
+kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="COGNITIVE_SUM")))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="COGNITIVE_SUM"))$Value, (data %>% filter(Metric=="COGNITIVE_SUM"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for COGNITIVE_AVG:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r COGNITIVE_AVG, echo=FALSE}
+
+kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="COGNITIVE_AVG")))
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="COGNITIVE_AVG"))$Value, (data %>% filter(Metric=="COGNITIVE_AVG"))$Lang, p.adj = "none")
+res
+
+
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for HALSTEAD__Vocabulary:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+
+```{r HALSTEAD__Vocabulary, echo=FALSE}
+
+
+  
+  
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="HALSTEAD__Vocabulary"))))
+res <- pairwise.wilcox.test((data %>% filter(Metric=="HALSTEAD__Vocabulary"))$Value, (data %>% filter(Metric=="HALSTEAD__Vocabulary"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for HALSTEAD__Difficulty:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r HALSTEAD__Difficulty, echo=FALSE}
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="HALSTEAD__Difficulty"))))
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="HALSTEAD__Difficulty"))$Value, (data %>% filter(Metric=="HALSTEAD__Difficulty"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+```
+
+Analysis for HALSTEAD__Programming time:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r HALSTEAD__Programming time, echo=FALSE}
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="HALSTEAD__Programming time"))))
+
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="HALSTEAD__Programming time"))$Value, (data %>% filter(Metric=="HALSTEAD__Programming time"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+```
+
+Analysis for HALSTEAD__Effort:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r HALSTEAD__Effort, echo=FALSE}
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="HALSTEAD__Effort"))))
+
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="HALSTEAD__Effort"))$Value, (data %>% filter(Metric=="HALSTEAD__Effort"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+```
+
+Analysis for HALSTEAD__Volume:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r HALSTEAD__Volume, echo=FALSE}
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="HALSTEAD__Volume"))))
+
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="HALSTEAD__Volume"))$Value, (data %>% filter(Metric=="HALSTEAD__Volume"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+```
+
+Analysis for HALSTEAD__Bugs:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r HALSTEAD__Bugs, echo=FALSE}
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="HALSTEAD__Bugs"))))
+
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="HALSTEAD__Bugs"))$Value, (data %>% filter(Metric=="HALSTEAD__Bugs"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+```
+
+
+Analysis for MI_original:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r MI__Original, echo=FALSE}
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="MI__Original"))))
+
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="MI__Original"))$Value, (data %>% filter(Metric=="MI__Original"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+
+```
+
+Analysis for MI__Sei:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r MI__Sei, echo=FALSE}
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="MI__Sei"))))
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="MI__Sei"))$Value, (data %>% filter(Metric=="MI__Sei"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+
+```
+
+Analysis for MI__Visual Studio:
+
+Parametric ANOVA and pair-wise test with Holm adjustment:
+
+```{r MI__Visual Studio, echo=FALSE}
+
+
+(kruskal.test(Value ~ Lang ,data=(data %>% filter(Metric=="MI__Visual Studio"))))
+
+res <- pairwise.wilcox.test((data %>% filter(Metric=="MI__Visual Studio"))$Value, (data %>% filter(Metric=="MI__Original"))$Lang, p.adj = "none")
+resp <- res$p.value
+pvalues <- res$p.value[4, ]
+pvalues[5] <- res$p.value[5,5]
+
+pvalues
+
+p.adjust(pvalues, "BH")
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
